@@ -1,2 +1,1 @@
-Run Scripts Location = C:\Users\plr\Documents\GIT-REPO\win-dotfiles
-
+Run Scripts Location = C:\Users\plr\Documents\GIT-REPO\windows-dotfiles
