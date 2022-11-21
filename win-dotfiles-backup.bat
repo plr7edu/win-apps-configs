@@ -1,19 +1,34 @@
 ::Delete Last-Update_XXXX.txt
 del "Last-Update-Time*.txt"
 
+
+
 ::Alacritty
-xcopy /y "C:\Users\plr\AppData\Roaming\alacritty" "C:\Users\plr\Documents\GIT-REPO\win-dotfiles\alacritty"
+xcopy /y "C:\Users\plr\AppData\Roaming\alacritty" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\alacritty"
 
 ::Starship
-xcopy /y "C:\Users\plr\AppData\Roaming\starship" "C:\Users\plr\Documents\GIT-REPO\win-dotfiles\starship"
+xcopy /y "C:\Users\plr\AppData\Roaming\starship" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\starship"
 
 ::Windows PowerShell
-xcopy /y "C:\Users\plr\Documents\WindowsPowerShell" "C:\Users\plr\Documents\GIT-REPO\win-dotfiles\WindowsPowerShell"
+xcopy /y "C:\Users\plr\Documents\WindowsPowerShell" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\WindowsPowerShell"
 
 ::Windows Terminal Settings Json
-xcopy /y "C:\Users\plr\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" "C:\Users\plr\Documents\GIT-REPO\win-dotfiles\Windows-Terminal-Settings"
+xcopy /y "C:\Users\plr\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\Windows-Terminal-Settings"
 
+::Geany
+xcopy /y /E "C:\Users\plr\AppData\Roaming\geany\*" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\geany\"
 
 ::Create a Text file with current date and time
-set CURRENTTIME=%date:~-7,2%"-"%date:~-10,2%"-"%date:~-4,4%"_"%time:~0,2%"."%time:~3,2%
-type nul > Last-Update-Time_%CURRENTTIME%.txt
+
+@echo off
+for /f "tokens=2 delims==" %%a in ('wmic OS Get localdatetime /value') do set "dt=%%a"
+set "YY=%dt:~2,2%" & set "YYYY=%dt:~0,4%" & set "MM=%dt:~4,2%" & set "DD=%dt:~6,2%"
+set "HH=%dt:~8,2%" & set "Min=%dt:~10,2%" & set "Sec=%dt:~12,2%"
+
+set "datestamp=%YYYY%%MM%%DD%" & set "timestamp=%HH%%Min%%Sec%"
+set "fullstamp=%YYYY%-%MM%-%DD%_%HH%-%Min%"
+::echo datestamp: "%datestamp%"
+::echo timestamp: "%timestamp%"
+::echo fullstamp: "%fullstamp%"
+
+type nul > Last-Update-Time_%fullstamp%.txt
