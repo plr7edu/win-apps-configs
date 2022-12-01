@@ -18,6 +18,9 @@ xcopy /y "C:\Users\plr\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d
 ::Geany
 xcopy /y /E "C:\Users\plr\AppData\Roaming\geany\*" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\geany\"
 
+::Espanso
+xcopy /y /E "C:\Users\plr\AppData\Roaming\espanso\*" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\espanso\"
+
 ::Create a Text file with current date and time
 
 @echo off

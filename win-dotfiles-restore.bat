@@ -13,3 +13,6 @@ xcopy /y "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\Windows-Terminal-Sett
 
 ::Geany
 xcopy /y /E "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\geany" "C:\Users\plr\AppData\Roaming\geany\"
+
+::Espanso
+xcopy /y /E "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\espanso" "C:\Users\plr\AppData\Roaming\espanso\"
