@@ -2,7 +2,6 @@
 del "Last-Update-Time*.txt"
 
 
-
 ::Alacritty
 xcopy /y "C:\Users\plr\AppData\Roaming\alacritty" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\alacritty"
 

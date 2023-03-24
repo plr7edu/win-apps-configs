@@ -56,7 +56,7 @@
             {
                 "font": 
                 {
-                    "size": 12
+                    "size": 12.0
                 },
                 "guid": "{17bf3de4-5353-5709-bcf9-835bd952a95e}",
                 "hidden": true,
@@ -70,14 +70,13 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "colorScheme": "Tokyo Night-Ubuntu-mod",
                 "font": 
                 {
                     "face": "CaskaydiaCove NF Mono"
                 },
-                "guid": "{f9ceaf27-504c-58d7-927c-d1d6a7ac7d3c}",
+                "guid": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
                 "hidden": false,
-                "name": "Ubuntu 22.04.1 LTS",
+                "name": "Ubuntu 22.04.2 LTS",
                 "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
             }
         ]
@@ -383,5 +382,6 @@
             "white": "#E5E9F0",
             "yellow": "#EBCB8B"
         }
-    ]
+    ],
+    "themes": []
 }

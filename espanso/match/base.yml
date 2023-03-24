@@ -1,3 +1,11 @@
+#█▀▀ █▀ █▀█ ▄▀█ █▄░█ █▀ █▀█   █▀▄▀█ ▄▀█ ▀█▀ █▀▀ █░█   █▀▀ █ █░░ █▀▀
+#██▄ ▄█ █▀▀ █▀█ █░▀█ ▄█ █▄█   █░▀░█ █▀█ ░█░ █▄▄ █▀█   █▀░ █ █▄▄ ██▄
+
+#=====================================================================================                    
+# Date    : 2022-03-24
+# Author  : plr
+#=====================================================================================
+
 # espanso match file
 
 # For a complete introduction, visit the official docs at: https://espanso.org/docs/
@@ -16,7 +24,7 @@ matches:
 
   # But matches can also be dynamic:
 
-  # Print the current date
+# Print the current date -------------------------------------------------------------------------
   - trigger: ":date"
     replace: "{{mydate}}"
     vars:
@@ -25,7 +33,17 @@ matches:
         params:
           format: "%m/%d/%Y"
 
-  # Print the output of a shell command
+# Print the current time -------------------------------------------------------------------------
+  - trigger: ":time"
+    replace: "{{mytime}}"
+    vars:
+      - name: mytime
+        type: date
+        params:
+          format: "%H:%M:%S"
+
+
+# Print the output of a shell command ------------------------------------------------------------
   - trigger: ":shell"
     replace: "{{output}}"
     vars:
@@ -33,10 +51,10 @@ matches:
         type: shell
         params:
           cmd: "echo 'Hello from your shell'"
-          
-  # Repo Update
-  - trigger: ":ru"
-    replace: "Repo-Update: {{mydate}} {{mytime}}"
+
+# Wallpaper Sync ---------------------------------------------------------------------------------
+  - trigger: ":ws"
+    replace: "Wallpaper Sync: {{mydate}} {{mytime}}"
     vars:
       - name: mydate
         type: date
@@ -46,8 +64,53 @@ matches:
         type: date
         params:
           format: "%H:%M:%S"
-          
-          
 
+# Mydata -----------------------------------------------------------------------------------------
+  - trigger: ":myd"
+    replace: "my-data-{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%m-%d"
 
-  # And much more! For more information, visit the docs: https://espanso.org/docs/
+# Bug Fix ----------------------------------------------------------------------------------------
+  - trigger: ":bf"
+    replace: "Bug Fix: {{mydate}} {{mytime}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%m-%d"
+      - name: mytime
+        type: date
+        params:
+          format: "%H:%M:%S"
+
+# Repository Update ------------------------------------------------------------------------------
+  - trigger: ":ru"
+    replace: "Repo Update: {{mydate}} {{mytime}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%m-%d"
+      - name: mytime
+        type: date
+        params:
+          format: "%H:%M:%S"
+
+# Time & date now --------------------------------------------------------------------------------
+  - trigger: ":now"
+    replace: "{{mydate}} {{mytime}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%m-%d"
+      - name: mytime
+        type: date
+        params:
+          format: "%H:%M:%S"
+
+# And much more! For more information, visit the docs: https://espanso.org/docs/
