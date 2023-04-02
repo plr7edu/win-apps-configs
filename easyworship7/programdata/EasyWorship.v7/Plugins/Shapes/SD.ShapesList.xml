@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<xml>
+  <shapelist xmlns="http://www.stdok.com/2014/presentation/shapelist">
+    <category name="Rectangles">
+	  <item name="Rectangle"                  tags="square;rectangle"><spPr><prstGeom prst="flowChartProcess"></prstGeom></spPr></item>
+	  <item name="Rounded Rectangle"          tags="square;rectangle;rounded"><spPr><prstGeom prst="roundRect"></prstGeom></spPr></item>
+	  <item name="Rectangle Right Snippet"    tags="square;rectangle;snippet;right"><spPr><prstGeom prst="snip1Rect"></prstGeom></spPr></item>
+	  <item name="Rectangle Same Snippet"     tags="square;rectangle;snippet"><spPr><prstGeom prst="snip2SameRect"></prstGeom></spPr></item>
+	  <item name="Rectangle Diagonal Snippet" tags="square;rectangle;snippet;diagonal"><spPr><prstGeom prst="snip2DiagRect"></prstGeom></spPr></item>
+	  <item name="Rounded Rectangle Snippet"  tags="square;rectangle;snippet;rounded"><spPr><prstGeom prst="snipRoundRect"></prstGeom></spPr></item>
+	  <item name="Rounded Right Rectangle"    tags="square;rectangle;rounded;right"><spPr><prstGeom prst="round1Rect"></prstGeom></spPr></item>
+	  <item name="Rounded Same Rectangle"     tags="square;rectangle;rounded"><spPr><prstGeom prst="round2SameRect"></prstGeom></spPr></item>
+	  <item name="Rounded Diagonal Rectangle" tags="square;rectangle;rounded;diagonal"><spPr><prstGeom prst="round2DiagRect"></prstGeom></spPr></item>
+	</category>
+    <category name="Basic Shapes">
+	  <item name="Circle"          tags="circle;ellipse"><spPr><prstGeom prst="ellipse"></prstGeom></spPr></item>
+	  <item name="Triangle"        tags="triangle"><spPr><prstGeom prst="triangle"></prstGeom></spPr></item>
+	  <item name="Right Triangle"  tags="triangle;right"><spPr><prstGeom prst="rtTriangle"></prstGeom></spPr></item>
+	  <item name="Parallelogram"   tags="parallelogram;square;rectangle"><spPr><prstGeom prst="parallelogram" ></prstGeom></spPr></item>
+	  <item name="Trapezoid"       tags="trapezoid"><spPr><prstGeom prst="trapezoid"></prstGeom></spPr></item>
+	  <item name="Diamond"         tags="Diamond"><spPr><prstGeom prst="diamond"></prstGeom></spPr></item>
+	  <item name="Pentagon"        tags="pentagon;five;5;circle;round"><spPr><prstGeom prst="pentagon"></prstGeom></spPr></item>
+	  <item name="Hexagon"         tags="hexagon;six;6;circle;round"><spPr><prstGeom prst="hexagon"></prstGeom></spPr></item>
+	  <item name="Heptagon"        tags="heptagon;seven;7;circle;round"><spPr><prstGeom prst="heptagon"></prstGeom></spPr></item>
+	  <item name="Octagon"         tags="octagon;eight;8;circle;round"><spPr><prstGeom prst="octagon"></prstGeom></spPr></item>
+	  <item name="Decagon"         tags="decagon;ten;10;circle;round"><spPr><prstGeom prst="decagon"></prstGeom></spPr></item>
+	  <item name="Dodecagon"       tags="dodecagon;twelve;12;circle;round"><spPr><prstGeom prst="dodecagon"></prstGeom></spPr></item>
+	  <item name="Pie Chart"       tags="pie;chart;round;circle"><spPr><prstGeom prst="pie"></prstGeom></spPr></item>
+	  <item name="Chord"           tags="chord;circle"><spPr><prstGeom prst="chord"></prstGeom></spPr></item>
+	  <item name="Tear Drop"       tags="tear;drop"><spPr><prstGeom prst="teardrop"></prstGeom></spPr></item>
+	  <item name="Frame"           tags="frame;square"><spPr><prstGeom prst="frame"></prstGeom></spPr></item>
+	  <item name="Half Frame"      tags="half;frame"><spPr><prstGeom prst="halfFrame"></prstGeom></spPr></item>
+  	  <item name="Corner"          tags="corner"><spPr><prstGeom prst="corner"></prstGeom></spPr></item>
+	  <item name="Diagonal Stripe" tags="diagonal;stripe"><spPr><prstGeom prst="diagStripe"></prstGeom></spPr></item>
+	  <item name="Plus"            tags="plus"><spPr><prstGeom prst="plus"></prstGeom></spPr></item>
+	  <item name="Plaque"          tags="plaque"><spPr><prstGeom prst="plaque"></prstGeom></spPr></item>
+	  <item name="Can"             tags="can;cylinder"><spPr><prstGeom prst="can"></prstGeom></spPr></item>
+	  <item name="Cube"            tags="cube;box"><spPr><prstGeom prst="cube"></prstGeom></spPr></item>
+	  <item name="Bevel"           tags="bevel;square;frame"><spPr><prstGeom prst="bevel"></prstGeom></spPr></item>
+	  <item name="Donut"           tags="Donut;circle"><spPr><prstGeom prst="donut"></prstGeom></spPr></item>
+	  <item name="Prohibited"      tags="prohibited;forbid;banned;veto;no;smoking"><spPr><prstGeom prst="noSmoking"></prstGeom></spPr></item>
+	  <item name="Block Arc"       tags="block;arc"><spPr><prstGeom prst="blockArc"></prstGeom></spPr></item>
+	  <item name="Sticky Note"     tags="sticky;note;folded;corner;square"><spPr><prstGeom prst="foldedCorner"></prstGeom></spPr></item>
+	  <item name="Smiley Face"     tags="smiley;face"><spPr><prstGeom prst="smileyFace"></prstGeom></spPr></item>
+	  <item name="Heart"           tags="heart;love"><spPr><prstGeom prst="heart"></prstGeom></spPr></item>
+	  <item name="Lightning Bolt"  tags="lightning;bolt"><spPr><prstGeom prst="lightningBolt"></prstGeom></spPr></item>
+	  <item name="Sun"             tags="sun;star"><spPr><prstGeom prst="sun"></prstGeom></spPr></item>
+	  <item name="Moon"            tags="moon;night"><spPr><prstGeom prst="moon"></prstGeom></spPr></item>
+	  <item name="Cloud"           tags="cloud"><spPr><prstGeom prst="cloud"></prstGeom></spPr></item>
+	  <item name="Cross"           tags="cross"><spPr><prstGeom prst="cross"></prstGeom></spPr></item>	  
+	</category>
+	<category name="Block Arrows">
+	  <item name="Right Arrow"         tags="right;arrow"><spPr><prstGeom prst="rightArrow"></prstGeom></spPr></item>
+	  <item name="Left Arrow"          tags="left;arrow"><spPr><prstGeom prst="leftArrow"></prstGeom></spPr></item>		  
+	  <item name="Up Arrow"            tags="up;arrow"><spPr><prstGeom prst="upArrow"></prstGeom></spPr></item>		  
+	  <item name="Down Arrow"          tags="down;arrow"><spPr><prstGeom prst="downArrow"></prstGeom></spPr></item>		  
+	  <item name="Left/Right Arrow"    tags="left;right;arrow"><spPr><prstGeom prst="leftRightArrow"></prstGeom></spPr></item>		  
+	  <item name="Up/Down Arrow"       tags="up;down;arrow"><spPr><prstGeom prst="upDownArrow"></prstGeom></spPr></item>		  
+	  <item name="Quad Arrow"          tags="quad;arrow"><spPr><prstGeom prst="quadArrow"></prstGeom></spPr></item>		  
+	  <item name="Left/Right Up Arrow" tags="left;right;up;arrow"><spPr><prstGeom prst="leftRightUpArrow"></prstGeom></spPr></item>		  
+	  <item name="Bent Arrow"          tags="bent;arrow"><spPr><prstGeom prst="bentArrow"></prstGeom></spPr></item>		  
+	  <item name="U-Turn Arrow"        tags="utrun;arrow"><spPr><prstGeom prst="uturnArrow"></prstGeom></spPr></item>		  
+	  <item name="Left/Up Arrow"       tags="left;up;arrow"><spPr><prstGeom prst="leftUpArrow"></prstGeom></spPr></item>		  
+	  <item name="Bent Up Arrow"       tags="bent;up;arrow"><spPr><prstGeom prst="bentUpArrow"></prstGeom></spPr></item>		  
+	  <item name="Curved Right Arrow"  tags="curved;right;arrow"><spPr><prstGeom prst="curvedRightArrow"></prstGeom></spPr></item>		  
+	  <item name="Curved Left Arrow"   tags="curved;left;arrow"><spPr><prstGeom prst="curvedLeftArrow"></prstGeom></spPr></item>		  
+	  <item name="Curved Up Arrow"     tags="curved;up;arrow"><spPr><prstGeom prst="curvedUpArrow"></prstGeom></spPr></item>		  
+	  <item name="Curved Down Arrow"   tags="curved;down;arrow"><spPr><prstGeom prst="curvedDownArrow"></prstGeom></spPr></item>		  
+	  <item name="Stiped Right Arrow"  tags="striped;right;arrow"><spPr><prstGeom prst="stripedRightArrow"></prstGeom></spPr></item>		  
+	  <item name="Notched Right Arrow" tags="notched;right;arrow"><spPr><prstGeom prst="notchedRightArrow"></prstGeom></spPr></item>		  
+	  <item name="Home Plate"          tags="home;plate;arrow;right"><spPr><prstGeom prst="homePlate"></prstGeom></spPr></item>		  
+	  <item name="Chevron"             tags="chevron;right"><spPr><prstGeom prst="chevron"></prstGeom></spPr></item>		  
+	  <item name="Cicular Arrow"       tags="cicular;arrow"><spPr><prstGeom prst="circularArrow"></prstGeom></spPr></item>		  
+	  <item name="Swoosh Arrow"        tags="swoosh;arrow;right"><spPr><prstGeom prst="swooshArrow"></prstGeom></spPr></item>		  	  
+	</category>
+    <category name="Stars and Banners">
+	  <item name="Seal 1"             tags="seal"><spPr><prstGeom prst="irregularSeal1"></prstGeom></spPr></item>		  
+	  <item name="Seal 2"             tags="seal"><spPr><prstGeom prst="irregularSeal2"></prstGeom></spPr></item>		  
+	  <item name="Star 4"             tags="star;4;four"><spPr><prstGeom prst="star4"></prstGeom></spPr></item>		  
+	  <item name="Star 5"             tags="star;5;five"><spPr><prstGeom prst="star5"></prstGeom></spPr></item>		  
+	  <item name="Star 6"             tags="star;6;six"><spPr><prstGeom prst="star6"></prstGeom></spPr></item>		  
+	  <item name="Star 7"             tags="star;7;seven"><spPr><prstGeom prst="star7"></prstGeom></spPr></item>		  
+	  <item name="Star 8"             tags="star;8;eight"><spPr><prstGeom prst="star8"></prstGeom></spPr></item>		  	  
+	  <item name="Star 10"            tags="star;10;ten"><spPr><prstGeom prst="star10"></prstGeom></spPr></item>		  	  	  
+      <item name="Star 12"            tags="star;12;twelve"><spPr><prstGeom prst="star12"></prstGeom></spPr></item>		  	  	  
+	  <item name="Star 16"            tags="star;16;sixteen"><spPr><prstGeom prst="star16"></prstGeom></spPr></item>		  	  	  
+      <item name="Star 24"            tags="star;24;twentyfour"><spPr><prstGeom prst="star24"></prstGeom></spPr></item>		  	  	  
+      <item name="Star 32"            tags="star;32;thirtytwo"><spPr><prstGeom prst="star32"></prstGeom></spPr></item>		  	  	  
+	  <item name="Ribbon 1"           tags="ribbon"><spPr><prstGeom prst="ribbon"></prstGeom></spPr></item>		  	  	  
+	  <item name="Ribbon 2"           tags="ribbon"><spPr><prstGeom prst="ribbon2"></prstGeom></spPr></item>		  	  	  	  
+	  <item name="Ellipse Ribbon 1"   tags="ellispe;ribbon"><spPr><prstGeom prst="ellipseRibbon"></prstGeom></spPr></item>		  	  	  
+	  <item name="Ellipse Ribbon 2"   tags="ellispe;ribbon"><spPr><prstGeom prst="ellipseRibbon2"></prstGeom></spPr></item>		  	  	  	  
+	  <item name="Vertical Scroll"    tags="vertical;scroll"><spPr><prstGeom prst="verticalScroll"></prstGeom></spPr></item>		  	  	  
+	  <item name="Horizontal Scroll"  tags="horizontal;scroll"><spPr><prstGeom prst="horizontalScroll"></prstGeom></spPr></item>		  	  	  	  
+      <item name="Wave Banner"        tags="wave;banner"><spPr><prstGeom prst="wave"></prstGeom></spPr></item>		  	  	  	  
+      <item name="Double Wave Banner" tags="wave;banner;double"><spPr><prstGeom prst="doubleWave"></prstGeom></spPr></item>		  	  	  	  
+	</category>
+    <category name="Callouts">
+	  <item name="Rectangle Callout"          tags="rectangle;square;callout"><spPr><prstGeom prst="wedgeRectCallout"></prstGeom></spPr></item>		  
+	  <item name="Rounded Rectangle Callout"  tags="rounded;rectangle;square;callout"><spPr><prstGeom prst="wedgeRoundRectCallout"></prstGeom></spPr></item>		  
+	  <item name="Circle Callout"             tags="circle;ellipse;callout"><spPr><prstGeom prst="wedgeEllipseCallout"></prstGeom></spPr></item>		  
+	  <item name="Cloud Callout"              tags="cloud;callout"><spPr><prstGeom prst="cloudCallout"></prstGeom></spPr></item>		  
+	  <item name="Right Arrow Callout"        tags="right;arrow;callout"><spPr><prstGeom prst="rightArrowCallout"></prstGeom></spPr></item>		  
+	  <item name="Left Arrow Callout"         tags="left;arrow;callout"><spPr><prstGeom prst="leftArrowCallout"></prstGeom></spPr></item>		  
+	  <item name="Up Arrow Callout"           tags="up;arrow;callout"><spPr><prstGeom prst="upArrowCallout"></prstGeom></spPr></item>		  
+	  <item name="Down Arrow Callout"         tags="down;arrow;callout"><spPr><prstGeom prst="downArrowCallout"></prstGeom></spPr></item>		  
+	  <item name="Left/Right Arrow Callout"   tags="left;right;arrow;callout"><spPr><prstGeom prst="leftRightArrowCallout"></prstGeom></spPr></item>		  
+	  <item name="Up/Down Arrow Callout"      tags="up;down;arrow;callout"><spPr><prstGeom prst="upDownArrowCallout"></prstGeom></spPr></item>		  
+	  <item name="Quad Arrow Callout"         tags="quad;arrow;callout"><spPr><prstGeom prst="quadArrowCallout"></prstGeom></spPr></item>		  
+	</category>
+    </shapelist>
+</xml>
