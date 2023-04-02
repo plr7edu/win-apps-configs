@@ -21,8 +21,8 @@ xcopy /y /E "C:\Users\plr\AppData\Roaming\geany\*" "C:\Users\plr\Documents\GIT-R
 xcopy /y /E "C:\Users\plr\AppData\Roaming\espanso\*" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\espanso\"
 
 ::Essy Worship 7
-xcopy /y /E "C:\ProgramData\Softouch\*" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\easyworship7\programdata\"
-xcopy /y /E "C:\Users\plr\AppData\Roaming\Softouch\*" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\easyworship7\roaming\"
+::xcopy /y /E "C:\ProgramData\Softouch\*" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\easyworship7\programdata\"
+::xcopy /y /E "C:\Users\plr\AppData\Roaming\Softouch\*" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\easyworship7\roaming\"
 
 ::Create a Text file with current date and time
 
