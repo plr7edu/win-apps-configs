@@ -17,7 +17,7 @@ xcopy /y /E "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\geany" "C:\Users\p
 ::Espanso
 xcopy /y /E "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\espanso" "C:\Users\plr\AppData\Roaming\espanso\"
 
-::Essy Worship 7
+::Easy Worship 7
 ::xcopy /y /E "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\easyworship7\programdata\*" "C:\ProgramData\Softouch\"
 ::xcopy /y /E "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\easyworship7\roaming\*" "C:\Users\plr\AppData\Roaming\Softouch\"
 
