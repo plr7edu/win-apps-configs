@@ -3,26 +3,29 @@ del "Last-Update-Time*.txt"
 
 
 ::Alacritty
-xcopy /y "C:\Users\plr\AppData\Roaming\alacritty" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\alacritty"
+xcopy /y "C:\Users\plr\AppData\Roaming\alacritty" "C:\Users\plr\Documents\MY-GIT-REPO\windows-dotfiles\alacritty"
 
 ::Starship
-xcopy /y "C:\Users\plr\AppData\Roaming\starship" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\starship"
+xcopy /y "C:\Users\plr\AppData\Roaming\starship" "C:\Users\plr\Documents\MY-GIT-REPO\windows-dotfiles\starship"
 
 ::Windows PowerShell
-xcopy /y "C:\Users\plr\Documents\WindowsPowerShell" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\WindowsPowerShell"
+xcopy /y "C:\Users\plr\Documents\WindowsPowerShell" "C:\Users\plr\Documents\MY-GIT-REPO\windows-dotfiles\WindowsPowerShell"
 
 ::Windows Terminal Settings Json
-xcopy /y "C:\Users\plr\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\Windows-Terminal-Settings"
+xcopy /y "C:\Users\plr\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" "C:\Users\plr\Documents\MY-GIT-REPO\windows-dotfiles\Windows-Terminal-Settings"
 
 ::Geany
-xcopy /y /E "C:\Users\plr\AppData\Roaming\geany\*" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\geany\"
+xcopy /y /E "C:\Users\plr\AppData\Roaming\geany\*" "C:\Users\plr\Documents\MY-GIT-REPO\windows-dotfiles\geany\"
 
 ::Espanso
-xcopy /y /E "C:\Users\plr\AppData\Roaming\espanso\*" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\espanso\"
+xcopy /y /E "C:\Users\plr\AppData\Roaming\espanso\*" "C:\Users\plr\Documents\MY-GIT-REPO\windows-dotfiles\espanso\"
+
+::FolderIco
+xcopy /y /E "C:\ProgramData\Teorex\FolderIco\*" "C:\Users\plr\Documents\MY-GIT-REPO\windows-dotfiles\FolderIco\"
 
 ::Easy Worship 7
-::xcopy /y /E "C:\ProgramData\Softouch\*" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\easyworship7\programdata\"
-::xcopy /y /E "C:\Users\plr\AppData\Roaming\Softouch\*" "C:\Users\plr\Documents\GIT-REPO\windows-dotfiles\easyworship7\roaming\"
+::xcopy /y /E "C:\ProgramData\Softouch\*" "C:\Users\plr\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\programdata\"
+::xcopy /y /E "C:\Users\plr\AppData\Roaming\Softouch\*" "C:\Users\plr\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\roaming\"
 
 ::Create a Text file with current date and time
 
