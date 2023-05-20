@@ -18,7 +18,10 @@ xcopy /y /E "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\geany" "C:\User
 xcopy /y /E "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\espanso" "C:\Users\PLR\AppData\Roaming\espanso\"
 
 ::FolderIco
-xcopy /y /E "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\FolderIco\" "C:\ProgramData\Teorex\"
+xcopy /y /E "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\folderIco\" "C:\ProgramData\Teorex\"
+
+::Jdonwloader2
+xcopy /y /E "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\jdownloader2\" "C:\Users\PLR\AppData\Local\JDownloader 2.0\cfg"
 
 ::Easy Worship 7
 ::xcopy /y /E "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\programdata\*" "C:\ProgramData\Softouch\"

@@ -21,7 +21,7 @@ xcopy /y /E "C:\Users\PLR\AppData\Roaming\geany\*" "C:\Users\PLR\Documents\MY-GI
 xcopy /y /E "C:\Users\PLR\AppData\Roaming\espanso\*" "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\espanso\"
 
 ::FolderIco
-xcopy /y /E "C:\ProgramData\Teorex\FolderIco\*" "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\FolderIco\"
+xcopy /y /E "C:\ProgramData\Teorex\FolderIco\*" "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\folderIco\"
 
 ::Easy Worship 7
 ::xcopy /y /E "C:\ProgramData\Softouch\*" "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\programdata\"
