@@ -1,29 +1,32 @@
 
 ::Alaritty
-xcopy "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\alacritty\" "C:\Users\PLR\AppData\Roaming\alacritty\" 
+xcopy "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\alacritty\" "%APPDATA%\alacritty\" 
 
 ::Starship
-xcopy "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\starship\" "C:\Users\PLR\AppData\Roaming\starship\"
+xcopy "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\starship\" "%APPDATA%\starship\"
 
 ::WindowsPowershell
-xcopy "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\WindowsPowerShell\" "C:\Users\PLR\Documents\WindowsPowerShell\"
+xcopy "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\WindowsPowerShell\" "%HOMEPATH%\Documents\WindowsPowerShell\"
 
 ::Windows Terminal
-xcopy /y "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\Windows-Terminal-Settings\settings.json" "C:\Users\PLR\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState"
+xcopy /y "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\Windows-Terminal-Settings\settings.json" "%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState"
 
 ::Geany
-xcopy /y /E "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\geany" "C:\Users\PLR\AppData\Roaming\geany\"
+xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\geany" "%APPDATA%\geany\"
 
 ::Espanso
-xcopy /y /E "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\espanso" "C:\Users\PLR\AppData\Roaming\espanso\"
+xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\espanso" "%APPDATA%\espanso\"
 
 ::FolderIco
-xcopy /y /E "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\folderIco\" "C:\ProgramData\Teorex\"
+xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\folderIco\" "%PROGRAMDATA%\Teorex\"
 
 ::Jdonwloader2
-xcopy /y /E "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\jdownloader2\" "C:\Users\PLR\AppData\Local\JDownloader 2.0\cfg"
+xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\jdownloader2\" "%LOCALAPPDATA%\JDownloader 2.0\cfg"
+
+::JPEGView
+xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\jpegview" "%APPDATA%\JPEGView\"
 
 ::Easy Worship 7
-::xcopy /y /E "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\programdata\*" "C:\ProgramData\Softouch\"
-::xcopy /y /E "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\roaming\*" "C:\Users\PLR\AppData\Roaming\Softouch\"
+::xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\programdata\*" "%PROGRAMDATA%\Softouch\"
+::xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\roaming\*" "%APPDATA%\Softouch\"
 
