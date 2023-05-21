@@ -3,29 +3,32 @@ del "Last-Update-Time*.txt"
 
 
 ::Alacritty
-xcopy /y "C:\Users\PLR\AppData\Roaming\alacritty" "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\alacritty"
+xcopy /y "%APPDATA%\alacritty\" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\alacritty"
 
 ::Starship
-xcopy /y "C:\Users\PLR\AppData\Roaming\starship" "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\starship"
+xcopy /y "%APPDATA%\starship\" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\starship"
 
 ::Windows PowerShell
-xcopy /y "C:\Users\PLR\Documents\WindowsPowerShell" "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\WindowsPowerShell"
+xcopy /y "%HOMEPATH%\Documents\WindowsPowerShell" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\WindowsPowerShell"
 
 ::Windows Terminal Settings Json
-xcopy /y "C:\Users\PLR\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\Windows-Terminal-Settings"
+xcopy /y "%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\Windows-Terminal-Settings"
 
 ::Geany
-xcopy /y /E "C:\Users\PLR\AppData\Roaming\geany\*" "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\geany\"
+xcopy /y /E "%APPDATA%\geany\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\geany\"
 
 ::Espanso
-xcopy /y /E "C:\Users\PLR\AppData\Roaming\espanso\*" "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\espanso\"
+xcopy /y /E "%APPDATA%\espanso\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\espanso\"
 
 ::FolderIco
-xcopy /y /E "C:\ProgramData\Teorex\FolderIco\*" "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\folderIco\"
+xcopy /y /E "%PROGRAMDATA%\Teorex\FolderIco\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\folderIco\"
+
+::JPEGView
+xcopy /y /E "%APPDATA%\JPEGView\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\jpegview\"
 
 ::Easy Worship 7
-::xcopy /y /E "C:\ProgramData\Softouch\*" "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\programdata\"
-::xcopy /y /E "C:\Users\PLR\AppData\Roaming\Softouch\*" "C:\Users\PLR\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\roaming\"
+::xcopy /y /E "%PROGRAMDATA%\Softouch\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\programdata\"
+::xcopy /y /E "%APPDATA%\Softouch\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\roaming\"
 
 ::Create a Text file with current date and time
 
