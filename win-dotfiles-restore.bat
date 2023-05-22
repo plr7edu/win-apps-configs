@@ -26,6 +26,9 @@ xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\jdownloader2\" "%
 ::JPEGView
 xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\jpegview\JPEGView\" "%APPDATA%\JPEGView\"
 
+::Typora (Themes)
+xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\typora\themes\" "%APPDATA%\Typora\themes\"
+
 ::Easy Worship 7
 ::xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\programdata\*" "%PROGRAMDATA%\Softouch\"
 ::xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\roaming\*" "%APPDATA%\Softouch\"
