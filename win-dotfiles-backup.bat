@@ -21,10 +21,10 @@ xcopy /y /E "%APPDATA%\geany\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfil
 xcopy /y /E "%APPDATA%\espanso\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\espanso\"
 
 ::FolderIco
-xcopy /y /E "%PROGRAMDATA%\Teorex\FolderIco\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\folderIco\"
+xcopy /y /E "%PROGRAMDATA%\Teorex\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\folderIco\"
 
 ::JPEGView
-xcopy /y /E "%APPDATA%\JPEGView\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\jpegview\JPEGView\"
+xcopy /y /E "%APPDATA%\JPEGView\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\jpegview\"
 
 ::Easy Worship 7
 ::xcopy /y /E "%PROGRAMDATA%\Softouch\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\programdata\"

@@ -9,7 +9,7 @@ xcopy "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\starship\" "%APPDATA%\s
 xcopy "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\WindowsPowerShell\" "%HOMEPATH%\Documents\WindowsPowerShell\"
 
 ::Windows Terminal
-xcopy /y "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\Windows-Terminal-Settings\settings.json" "%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState"
+xcopy /y "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\Windows-Terminal-Settings\*" "%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState"
 
 ::Geany
 xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\geany" "%APPDATA%\geany\"
@@ -18,13 +18,13 @@ xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\geany" "%APPDATA%
 xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\espanso" "%APPDATA%\espanso\"
 
 ::FolderIco
-xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\folderIco\" "%PROGRAMDATA%\Teorex\"
+xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\folderIco\*" "%PROGRAMDATA%\Teorex\"
 
 ::Jdonwloader2
 xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\jdownloader2\" "%LOCALAPPDATA%\JDownloader 2.0\cfg\"
 
 ::JPEGView
-xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\jpegview\JPEGView\" "%APPDATA%\JPEGView\"
+xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\jpegview\*" "%APPDATA%\JPEGView\"
 
 ::Typora (Themes)
 xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\typora\themes\" "%APPDATA%\Typora\themes\"
