@@ -1,0 +1,228 @@
+[start] 2023/06/03 19:36:12 INFO: syncthing v1.23.4 "Fermium Flea" (go1.19.6 windows-amd64) builder@github.syncthing.net 2023-04-05 13:25:55 UTC
+[start] 2023/06/03 19:36:12 INFO: Generating ECDSA key and certificate for syncthing...
+[start] 2023/06/03 19:36:12 INFO: Default folder created and/or linked to new config
+[start] 2023/06/03 19:36:12 INFO: Default config saved. Edit C:\Users\EDU\AppData\Local\Syncthing\config.xml to taste (with Syncthing stopped) or use the GUI
+[start] 2023/06/03 19:36:12 INFO: Archiving a copy of old config file format at: C:\Users\EDU\AppData\Local\Syncthing\config.xml.v0
+[OBKZE] 2023/06/03 19:36:13 INFO: My ID: OBKZE5V-G74CJVS-CVNVLES-CODAF6W-5T5G3UP-MM55WET-LROGWB6-E2C4AQQ
+[OBKZE] 2023/06/03 19:36:14 INFO: Single thread SHA256 performance is 73 MB/s using minio/sha256-simd (72 MB/s using crypto/sha256).
+[OBKZE] 2023/06/03 19:36:15 INFO: Hashing performance is 65.14 MB/s
+[OBKZE] 2023/06/03 19:36:15 INFO: Running database migration 1...
+[OBKZE] 2023/06/03 19:36:15 INFO: Running database migration 2...
+[OBKZE] 2023/06/03 19:36:15 INFO: Running database migration 3...
+[OBKZE] 2023/06/03 19:36:15 INFO: Running database migration 5...
+[OBKZE] 2023/06/03 19:36:15 INFO: Running database migration 6...
+[OBKZE] 2023/06/03 19:36:15 INFO: Running database migration 7...
+[OBKZE] 2023/06/03 19:36:15 INFO: Running database migration 9...
+[OBKZE] 2023/06/03 19:36:15 INFO: Running database migration 10...
+[OBKZE] 2023/06/03 19:36:15 INFO: Running database migration 11...
+[OBKZE] 2023/06/03 19:36:15 INFO: Running database migration 13...
+[OBKZE] 2023/06/03 19:36:15 INFO: Running database migration 14...
+[OBKZE] 2023/06/03 19:36:15 INFO: Running database migration 16...
+[OBKZE] 2023/06/03 19:36:15 INFO: Running database migration 17...
+[OBKZE] 2023/06/03 19:36:15 INFO: Running database migration 19...
+[OBKZE] 2023/06/03 19:36:15 INFO: Compacting database after migration...
+[OBKZE] 2023/06/03 19:36:15 INFO: Overall send rate is unlimited, receive rate is unlimited
+[OBKZE] 2023/06/03 19:36:15 INFO: No stored folder metadata for "default"; recalculating
+[OBKZE] 2023/06/03 19:36:15 INFO: Using discovery mechanism: global discovery server https://discovery.syncthing.net/v2/?noannounce&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[OBKZE] 2023/06/03 19:36:15 INFO: Using discovery mechanism: global discovery server https://discovery-v4.syncthing.net/v2/?nolookup&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[OBKZE] 2023/06/03 19:36:15 INFO: Using discovery mechanism: global discovery server https://discovery-v6.syncthing.net/v2/?nolookup&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[OBKZE] 2023/06/03 19:36:15 INFO: Using discovery mechanism: IPv4 local broadcast discovery on port 21027
+[OBKZE] 2023/06/03 19:36:15 INFO: Using discovery mechanism: IPv6 local multicast discovery on address [ff12::8384]:21027
+[OBKZE] 2023/06/03 19:36:15 INFO: Ready to synchronize "Default Folder" (default) (sendreceive)
+[OBKZE] 2023/06/03 19:36:15 INFO: Completed initial scan of sendreceive folder "Default Folder" (default)
+[OBKZE] 2023/06/03 19:36:15 INFO: Loading HTTPS certificate: open C:\Users\EDU\AppData\Local\Syncthing\https-cert.pem: The system cannot find the file specified.
+[OBKZE] 2023/06/03 19:36:15 INFO: Creating new HTTPS certificate
+[OBKZE] 2023/06/03 19:36:15 INFO: Relay listener (dynamic+https://relays.syncthing.net/endpoint) starting
+[OBKZE] 2023/06/03 19:36:15 INFO: GUI and API listening on 127.0.0.1:8384
+[OBKZE] 2023/06/03 19:36:15 INFO: Access the GUI via the following URL: http://127.0.0.1:8384/
+[OBKZE] 2023/06/03 19:36:15 INFO: My name is "EDU"
+[OBKZE] 2023/06/03 19:36:15 INFO: QUIC listener ([::]:22000) starting
+[OBKZE] 2023/06/03 19:36:15 INFO: TCP listener ([::]:22000) starting
+[OBKZE] 2023/06/03 19:36:16 INFO: quic://0.0.0.0:22000 detected NAT type: Full cone NAT
+[OBKZE] 2023/06/03 19:36:16 INFO: quic://0.0.0.0:22000 resolved external address quic://101.2.177.46:47480 (via stun.syncthing.net:3478)
+[OBKZE] 2023/06/03 19:36:26 INFO: Detected 0 NAT services
+[OBKZE] 2023/06/03 19:36:42 INFO: Sent usage report (version 3)
+[OBKZE] 2023/06/03 19:36:55 INFO: GUI and API listening on 127.0.0.1:8384
+[OBKZE] 2023/06/03 19:36:55 INFO: Access the GUI via the following URL: http://127.0.0.1:8384/
+[OBKZE] 2023/06/03 19:37:09 INFO: GUI and API listening on 127.0.0.1:8384
+[OBKZE] 2023/06/03 19:37:09 INFO: Access the GUI via the following URL: http://127.0.0.1:8384/
+[OBKZE] 2023/06/03 19:37:53 INFO: Joined relay relay://66.96.228.91:22067
+[OBKZE] 2023/06/03 20:04:52 INFO: Adding folder "Syncthing-Data" (mj4zh-ncpkj)
+[OBKZE] 2023/06/03 20:04:52 INFO: No stored folder metadata for "mj4zh-ncpkj"; recalculating
+[OBKZE] 2023/06/03 20:04:52 INFO: Ready to synchronize "Syncthing-Data" (mj4zh-ncpkj) (sendreceive)
+[OBKZE] 2023/06/03 20:04:57 INFO: Completed initial scan of sendreceive folder "Syncthing-Data" (mj4zh-ncpkj)
+[OBKZE] 2023/06/03 20:05:25 INFO: GUI and API listening on 127.0.0.1:8384
+[OBKZE] 2023/06/03 20:05:25 INFO: Access the GUI via the following URL: http://127.0.0.1:8384/
+[OBKZE] 2023/06/03 20:05:32 INFO: Relay listener (dynamic+https://relays.syncthing.net/endpoint) shutting down
+[OBKZE] 2023/06/03 20:05:32 INFO: QUIC listener ([::]:22000) shutting down
+[OBKZE] 2023/06/03 20:05:33 INFO: TCP listener ([::]:22000) shutting down
+[OBKZE] 2023/06/03 20:05:33 INFO: Exiting
+[start] 2023/06/03 20:05:34 INFO: syncthing v1.23.4 "Fermium Flea" (go1.19.6 windows-amd64) builder@github.syncthing.net 2023-04-05 13:25:55 UTC
+[OBKZE] 2023/06/03 20:05:35 INFO: My ID: OBKZE5V-G74CJVS-CVNVLES-CODAF6W-5T5G3UP-MM55WET-LROGWB6-E2C4AQQ
+[OBKZE] 2023/06/03 20:05:36 INFO: Single thread SHA256 performance is 73 MB/s using crypto/sha256 (72 MB/s using minio/sha256-simd).
+[OBKZE] 2023/06/03 20:05:37 INFO: Hashing performance is 68.26 MB/s
+[OBKZE] 2023/06/03 20:05:37 INFO: Overall send rate is unlimited, receive rate is unlimited
+[OBKZE] 2023/06/03 20:05:37 INFO: Using discovery mechanism: global discovery server https://discovery.syncthing.net/v2/?noannounce&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[OBKZE] 2023/06/03 20:05:37 INFO: Using discovery mechanism: global discovery server https://discovery-v4.syncthing.net/v2/?nolookup&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[OBKZE] 2023/06/03 20:05:37 INFO: Using discovery mechanism: global discovery server https://discovery-v6.syncthing.net/v2/?nolookup&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[OBKZE] 2023/06/03 20:05:37 INFO: Using discovery mechanism: IPv4 local broadcast discovery on port 21027
+[OBKZE] 2023/06/03 20:05:37 INFO: Using discovery mechanism: IPv6 local multicast discovery on address [ff12::8384]:21027
+[OBKZE] 2023/06/03 20:05:37 INFO: Ready to synchronize "Syncthing-Data" (mj4zh-ncpkj) (sendreceive)
+[OBKZE] 2023/06/03 20:05:37 INFO: GUI and API listening on 127.0.0.1:8384
+[OBKZE] 2023/06/03 20:05:37 INFO: Access the GUI via the following URL: http://127.0.0.1:8384/
+[OBKZE] 2023/06/03 20:05:37 INFO: My name is "EDU"
+[OBKZE] 2023/06/03 20:05:37 INFO: Relay listener (dynamic+https://relays.syncthing.net/endpoint) starting
+[OBKZE] 2023/06/03 20:05:37 INFO: TCP listener ([::]:22000) starting
+[OBKZE] 2023/06/03 20:05:37 INFO: QUIC listener ([::]:22000) starting
+[OBKZE] 2023/06/03 20:05:38 INFO: Completed initial scan of sendreceive folder "Syncthing-Data" (mj4zh-ncpkj)
+[OBKZE] 2023/06/03 20:05:48 INFO: Detected 0 NAT services
+[OBKZE] 2023/06/03 20:05:58 INFO: quic://0.0.0.0:22000 detected NAT type: Port restricted NAT
+[OBKZE] 2023/06/03 20:05:58 INFO: quic://0.0.0.0:22000 resolved external address quic://101.2.177.46:47480 (via stun.syncthing.net:3478)
+[OBKZE] 2023/06/03 20:05:58 INFO: QUIC listener ([::]:22000) shutting down
+[OBKZE] 2023/06/03 20:05:58 INFO: Relay listener (dynamic+https://relays.syncthing.net/endpoint) shutting down
+[OBKZE] 2023/06/03 20:05:59 INFO: TCP listener ([::]:22000) shutting down
+[OBKZE] 2023/06/03 20:05:59 INFO: Exiting
+[start] 2023/06/03 20:06:02 INFO: syncthing v1.23.4 "Fermium Flea" (go1.19.6 windows-amd64) builder@github.syncthing.net 2023-04-05 13:25:55 UTC
+[OBKZE] 2023/06/03 20:06:02 INFO: My ID: OBKZE5V-G74CJVS-CVNVLES-CODAF6W-5T5G3UP-MM55WET-LROGWB6-E2C4AQQ
+[OBKZE] 2023/06/03 20:06:03 INFO: Single thread SHA256 performance is 73 MB/s using crypto/sha256 (73 MB/s using minio/sha256-simd).
+[OBKZE] 2023/06/03 20:06:04 INFO: Hashing performance is 68.74 MB/s
+[OBKZE] 2023/06/03 20:06:04 INFO: Overall send rate is unlimited, receive rate is unlimited
+[OBKZE] 2023/06/03 20:06:04 INFO: Using discovery mechanism: global discovery server https://discovery.syncthing.net/v2/?noannounce&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[OBKZE] 2023/06/03 20:06:04 INFO: Using discovery mechanism: global discovery server https://discovery-v4.syncthing.net/v2/?nolookup&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[OBKZE] 2023/06/03 20:06:04 INFO: Using discovery mechanism: global discovery server https://discovery-v6.syncthing.net/v2/?nolookup&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[OBKZE] 2023/06/03 20:06:04 INFO: Using discovery mechanism: IPv4 local broadcast discovery on port 21027
+[OBKZE] 2023/06/03 20:06:04 INFO: Using discovery mechanism: IPv6 local multicast discovery on address [ff12::8384]:21027
+[OBKZE] 2023/06/03 20:06:04 INFO: Ready to synchronize "Syncthing-Data" (mj4zh-ncpkj) (sendreceive)
+[OBKZE] 2023/06/03 20:06:04 INFO: Relay listener (dynamic+https://relays.syncthing.net/endpoint) starting
+[OBKZE] 2023/06/03 20:06:04 INFO: GUI and API listening on 127.0.0.1:8384
+[OBKZE] 2023/06/03 20:06:04 INFO: Access the GUI via the following URL: http://127.0.0.1:8384/
+[OBKZE] 2023/06/03 20:06:04 INFO: My name is "EDU"
+[OBKZE] 2023/06/03 20:06:04 INFO: TCP listener ([::]:22000) starting
+[OBKZE] 2023/06/03 20:06:04 INFO: QUIC listener ([::]:22000) starting
+[OBKZE] 2023/06/03 20:06:05 INFO: quic://0.0.0.0:22000 detected NAT type: Full cone NAT
+[OBKZE] 2023/06/03 20:06:05 INFO: quic://0.0.0.0:22000 resolved external address quic://101.2.177.46:47480 (via stun.syncthing.net:3478)
+[OBKZE] 2023/06/03 20:06:05 INFO: Completed initial scan of sendreceive folder "Syncthing-Data" (mj4zh-ncpkj)
+[OBKZE] 2023/06/03 20:06:15 INFO: Detected 0 NAT services
+[OBKZE] 2023/06/03 20:06:40 INFO: Established secure connection to CTK4RBP-3K5YYZU-D54KGKY-MXE7ECA-3MEE4ME-TPV2S4N-HNBQ2WZ-FPZM6AI at [fe80::2594:fa58:4e3a:c8a5%Wi-Fi]:22000-[fe80::f97b:b4ef:e59:73f%Wi-Fi]:22000/tcp-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/03 20:06:40 INFO: Device CTK4RBP-3K5YYZU-D54KGKY-MXE7ECA-3MEE4ME-TPV2S4N-HNBQ2WZ-FPZM6AI client is "syncthing v1.18.0-ds1" named "" at [fe80::2594:fa58:4e3a:c8a5%Wi-Fi]:22000-[fe80::f97b:b4ef:e59:73f%Wi-Fi]:22000/tcp-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/03 20:06:40 INFO: Connection to CTK4RBP-3K5YYZU-D54KGKY-MXE7ECA-3MEE4ME-TPV2S4N-HNBQ2WZ-FPZM6AI at [fe80::2594:fa58:4e3a:c8a5%Wi-Fi]:22000-[fe80::f97b:b4ef:e59:73f%Wi-Fi]:22000/tcp-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256 closed: reading length: read tcp [fe80::2594:fa58:4e3a:c8a5%Wi-Fi]:22000->[fe80::f97b:b4ef:e59:73f%Wi-Fi]:22000: wsarecv: An existing connection was forcibly closed by the remote host.
+[OBKZE] 2023/06/03 20:07:01 INFO: Established secure connection to CTK4RBP-3K5YYZU-D54KGKY-MXE7ECA-3MEE4ME-TPV2S4N-HNBQ2WZ-FPZM6AI at 192.168.43.109:22000-192.168.43.237:22000/tcp-server/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/03 20:07:01 INFO: Device CTK4RBP-3K5YYZU-D54KGKY-MXE7ECA-3MEE4ME-TPV2S4N-HNBQ2WZ-FPZM6AI client is "syncthing v1.18.0-ds1" named "plr-xubuntu" at 192.168.43.109:22000-192.168.43.237:22000/tcp-server/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/03 20:07:24 INFO: Ready to synchronize "Syncthing-Data" (mj4zh-ncpkj) (sendreceive)
+[OBKZE] 2023/06/03 20:07:24 INFO: Restarted folder "Syncthing-Data" (mj4zh-ncpkj) (sendreceive)
+[OBKZE] 2023/06/03 20:07:25 INFO: Completed initial scan of sendreceive folder "Syncthing-Data" (mj4zh-ncpkj)
+[OBKZE] 2023/06/03 20:07:40 INFO: Joined relay relay://101.108.32.217:22067
+[OBKZE] 2023/06/03 20:07:50 INFO: Device CTK4RBP folder "Syncthing-Data" (mj4zh-ncpkj) has a new index ID (0x81982DAD96CC054C)
+[OBKZE] 2023/06/03 20:09:01 INFO: Connection to CTK4RBP-3K5YYZU-D54KGKY-MXE7ECA-3MEE4ME-TPV2S4N-HNBQ2WZ-FPZM6AI at 192.168.43.109:22000-192.168.43.237:22000/tcp-server/TLS1.3-TLS_CHACHA20_POLY1305_SHA256 closed: reading length: read tcp 192.168.43.109:22000->192.168.43.237:22000: wsarecv: An existing connection was forcibly closed by the remote host.
+[OBKZE] 2023/06/03 20:10:13 INFO: Established secure connection to 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM at 192.168.43.109:22000-192.168.43.2:22000/tcp-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/03 20:10:13 INFO: Device 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM client is "syncthing v1.23.4" named "" at 192.168.43.109:22000-192.168.43.2:22000/tcp-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/03 20:10:13 INFO: Connection to 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM at 192.168.43.109:22000-192.168.43.2:22000/tcp-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256 closed: reading length: read tcp 192.168.43.109:22000->192.168.43.2:22000: wsarecv: An existing connection was forcibly closed by the remote host.
+[OBKZE] 2023/06/03 20:10:33 INFO: Established secure connection to 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM at [::]:22000-192.168.43.2:22000/quic-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/03 20:10:33 INFO: Device 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM client is "syncthing v1.23.4" named "" at [::]:22000-192.168.43.2:22000/quic-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/03 20:10:33 INFO: Connection to 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM at [::]:22000-192.168.43.2:22000/quic-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256 closed: reading length: EOF
+[OBKZE] 2023/06/03 20:10:53 INFO: Established secure connection to 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM at [::]:22000-192.168.43.2:22000/quic-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/03 20:10:53 INFO: Device 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM client is "syncthing v1.23.4" named "" at [::]:22000-192.168.43.2:22000/quic-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/03 20:10:53 INFO: Connection to 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM at [::]:22000-192.168.43.2:22000/quic-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256 closed: reading length: EOF
+[OBKZE] 2023/06/03 20:10:55 INFO: Established secure connection to 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM at 192.168.43.109:22000-192.168.43.2:22000/tcp-server/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/03 20:10:55 INFO: Device 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM client is "syncthing v1.23.4" named "MED-LX9" at 192.168.43.109:22000-192.168.43.2:22000/tcp-server/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/03 20:11:09 INFO: Ready to synchronize "Syncthing-Data" (mj4zh-ncpkj) (sendreceive)
+[OBKZE] 2023/06/03 20:11:09 INFO: Restarted folder "Syncthing-Data" (mj4zh-ncpkj) (sendreceive)
+[OBKZE] 2023/06/03 20:11:10 INFO: Completed initial scan of sendreceive folder "Syncthing-Data" (mj4zh-ncpkj)
+[OBKZE] 2023/06/03 20:12:08 INFO: Connection to 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM at 192.168.43.109:22000-192.168.43.2:22000/tcp-server/TLS1.3-TLS_CHACHA20_POLY1305_SHA256 closed: reading length: read tcp 192.168.43.109:22000->192.168.43.2:22000: wsarecv: An existing connection was forcibly closed by the remote host.
+[OBKZE] 2023/06/03 20:12:10 INFO: Established secure connection to 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM at 192.168.43.109:22000-192.168.43.2:22000/tcp-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/03 20:12:10 INFO: Device 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM client is "syncthing v1.23.4" named "MED-LX9" at 192.168.43.109:22000-192.168.43.2:22000/tcp-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/03 20:12:14 INFO: Device 4E7PNAL folder "Syncthing-Data" (mj4zh-ncpkj) has a new index ID (0xB651E806E83326FB)
+[OBKZE] 2023/06/03 20:12:55 INFO: Connection to 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM at 192.168.43.109:22000-192.168.43.2:22000/tcp-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256 closed: reading length: read tcp 192.168.43.109:22000->192.168.43.2:22000: wsarecv: An existing connection was forcibly closed by the remote host.
+[OBKZE] 2023/06/03 20:13:00 INFO: Established secure connection to 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM at [::]:22000-192.168.43.2:22000/quic-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/03 20:13:00 INFO: Device 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM client is "syncthing v1.23.4" named "MED-LX9" at [::]:22000-192.168.43.2:22000/quic-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/03 20:13:02 INFO: Connection to 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM at [::]:22000-192.168.43.2:22000/quic-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256 closed: reading length: Application error 0x0 (remote)
+[OBKZE] 2023/06/03 20:18:43 INFO: Relay listener (dynamic+https://relays.syncthing.net/endpoint) shutting down
+[OBKZE] 2023/06/03 20:18:43 INFO: QUIC listener ([::]:22000) shutting down
+[OBKZE] 2023/06/03 20:18:43 INFO: TCP listener ([::]:22000) shutting down
+[OBKZE] 2023/06/03 20:18:43 INFO: Exiting
+[start] 2023/06/04 22:34:34 INFO: syncthing v1.23.4 "Fermium Flea" (go1.19.6 windows-amd64) builder@github.syncthing.net 2023-04-05 13:25:55 UTC
+[OBKZE] 2023/06/04 22:34:36 INFO: My ID: OBKZE5V-G74CJVS-CVNVLES-CODAF6W-5T5G3UP-MM55WET-LROGWB6-E2C4AQQ
+[OBKZE] 2023/06/04 22:34:36 INFO: Single thread SHA256 performance is 74 MB/s using minio/sha256-simd (73 MB/s using crypto/sha256).
+[OBKZE] 2023/06/04 22:34:37 INFO: Hashing performance is 68.57 MB/s
+[OBKZE] 2023/06/04 22:34:37 INFO: Overall send rate is unlimited, receive rate is unlimited
+[OBKZE] 2023/06/04 22:34:37 INFO: Using discovery mechanism: global discovery server https://discovery.syncthing.net/v2/?noannounce&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[OBKZE] 2023/06/04 22:34:37 INFO: Using discovery mechanism: global discovery server https://discovery-v4.syncthing.net/v2/?nolookup&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[OBKZE] 2023/06/04 22:34:37 INFO: Using discovery mechanism: global discovery server https://discovery-v6.syncthing.net/v2/?nolookup&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[OBKZE] 2023/06/04 22:34:37 INFO: Using discovery mechanism: IPv4 local broadcast discovery on port 21027
+[OBKZE] 2023/06/04 22:34:37 INFO: Using discovery mechanism: IPv6 local multicast discovery on address [ff12::8384]:21027
+[OBKZE] 2023/06/04 22:34:37 INFO: Ready to synchronize "Syncthing-Data" (mj4zh-ncpkj) (sendreceive)
+[OBKZE] 2023/06/04 22:34:37 INFO: Relay listener (dynamic+https://relays.syncthing.net/endpoint) starting
+[OBKZE] 2023/06/04 22:34:37 INFO: GUI and API listening on 127.0.0.1:8384
+[OBKZE] 2023/06/04 22:34:37 INFO: Access the GUI via the following URL: http://127.0.0.1:8384/
+[OBKZE] 2023/06/04 22:34:37 INFO: My name is "EDU"
+[OBKZE] 2023/06/04 22:34:37 INFO: Device CTK4RBP-3K5YYZU-D54KGKY-MXE7ECA-3MEE4ME-TPV2S4N-HNBQ2WZ-FPZM6AI is "plr-xubuntu" at [dynamic]
+[OBKZE] 2023/06/04 22:34:37 INFO: Device 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM is "MED-LX9" at [dynamic]
+[OBKZE] 2023/06/04 22:34:37 INFO: QUIC listener ([::]:22000) starting
+[OBKZE] 2023/06/04 22:34:37 INFO: TCP listener ([::]:22000) starting
+[OBKZE] 2023/06/04 22:34:39 INFO: Completed initial scan of sendreceive folder "Syncthing-Data" (mj4zh-ncpkj)
+[OBKZE] 2023/06/04 22:34:50 INFO: Detected 0 NAT services
+[OBKZE] 2023/06/04 22:35:01 INFO: quic://0.0.0.0:22000 detected NAT type: Port restricted NAT
+[OBKZE] 2023/06/04 22:35:01 INFO: quic://0.0.0.0:22000 resolved external address quic://223.224.8.92:2190 (via stun.syncthing.net:3478)
+[OBKZE] 2023/06/04 22:36:23 INFO: Joined relay relay://66.96.228.91:22067
+[OBKZE] 2023/06/04 22:41:50 INFO: Established secure connection to SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ at 192.168.43.109:22000-192.168.43.237:22000/tcp-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/04 22:41:50 INFO: Device SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ client is "syncthing v1.23.4" named "" at 192.168.43.109:22000-192.168.43.237:22000/tcp-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/04 22:41:50 INFO: Connection to SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ at 192.168.43.109:22000-192.168.43.237:22000/tcp-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256 closed: reading length: read tcp 192.168.43.109:22000->192.168.43.237:22000: wsarecv: An existing connection was forcibly closed by the remote host.
+[OBKZE] 2023/06/04 22:42:08 INFO: Established secure connection to SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ at [::]:22000-192.168.43.237:22000/quic-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/04 22:42:08 INFO: Device SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ client is "syncthing v1.23.4" named "" at [::]:22000-192.168.43.237:22000/quic-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/04 22:42:08 INFO: Connection to SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ at [::]:22000-192.168.43.237:22000/quic-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256 closed: reading length: Application error 0x0 (remote): closing
+[OBKZE] 2023/06/04 22:42:12 INFO: Established secure connection to SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ at 192.168.43.109:22000-192.168.43.237:22000/tcp-server/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/04 22:42:12 INFO: Device SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ client is "syncthing v1.23.4" named "PLR" at 192.168.43.109:22000-192.168.43.237:22000/tcp-server/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/04 22:43:08 INFO: Connection to SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ at 192.168.43.109:22000-192.168.43.237:22000/tcp-server/TLS1.3-TLS_CHACHA20_POLY1305_SHA256 closed: device has been removed
+[OBKZE] 2023/06/04 22:43:08 INFO: Connection from SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ at 192.168.43.237:22000 (quic-server) rejected: unknown device
+[OBKZE] 2023/06/04 22:43:14 INFO: Connection from SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ at 192.168.43.237:22000 (tcp-server) rejected: unknown device
+[OBKZE] 2023/06/04 22:43:24 INFO: Established secure connection to SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ at 192.168.43.109:22000-192.168.43.237:22000/tcp-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/04 22:43:24 INFO: Device SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ client is "syncthing v1.23.4" named "" at 192.168.43.109:22000-192.168.43.237:22000/tcp-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/04 22:43:24 INFO: Connection to SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ at 192.168.43.109:22000-192.168.43.237:22000/tcp-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256 closed: reading length: read tcp 192.168.43.109:22000->192.168.43.237:22000: wsarecv: An existing connection was forcibly closed by the remote host.
+[OBKZE] 2023/06/04 22:43:35 INFO: Established secure connection to SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ at [::]:22000-192.168.43.237:22000/quic-server/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/04 22:43:35 INFO: Device SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ client is "syncthing v1.23.4" named "PLR-Windows" at [::]:22000-192.168.43.237:22000/quic-server/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/04 22:43:55 INFO: Ready to synchronize "Syncthing-Data" (mj4zh-ncpkj) (sendreceive)
+[OBKZE] 2023/06/04 22:43:55 INFO: Restarted folder "Syncthing-Data" (mj4zh-ncpkj) (sendreceive)
+[OBKZE] 2023/06/04 22:43:56 INFO: Completed initial scan of sendreceive folder "Syncthing-Data" (mj4zh-ncpkj)
+[OBKZE] 2023/06/04 22:44:09 INFO: Device SLNZAEA folder "Syncthing-Data" (mj4zh-ncpkj) has a new index ID (0xC9F821905910274D)
+[OBKZE] 2023/06/04 22:44:14 INFO: Established secure connection to SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ at 192.168.43.109:22000-192.168.43.237:22000/tcp-server/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/04 22:44:14 INFO: Replacing old connection [::]:22000-192.168.43.237:22000/quic-server/TLS1.3-TLS_CHACHA20_POLY1305_SHA256 with 192.168.43.109:22000-192.168.43.237:22000/tcp-server/TLS1.3-TLS_CHACHA20_POLY1305_SHA256 for SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ
+[OBKZE] 2023/06/04 22:44:14 INFO: Connection to SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ at [::]:22000-192.168.43.237:22000/quic-server/TLS1.3-TLS_CHACHA20_POLY1305_SHA256 closed: writing message: Application error 0x0 (remote): closing
+[OBKZE] 2023/06/04 22:44:14 INFO: Device SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ client is "syncthing v1.23.4" named "PLR-Windows" at 192.168.43.109:22000-192.168.43.237:22000/tcp-server/TLS1.3-TLS_CHACHA20_POLY1305_SHA256
+[OBKZE] 2023/06/04 22:44:15 INFO: Listen (BEP/tcp): TLS handshake: read tcp 192.168.43.109:22000->192.168.43.237:51936: wsarecv: An existing connection was forcibly closed by the remote host.
+[OBKZE] 2023/06/04 22:47:14 INFO: quic://0.0.0.0:22000 resolved external address quic://223.224.8.92:2284 (via stun.syncthing.net:3478)
+[OBKZE] 2023/06/04 22:48:53 INFO: Connection to SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ at 192.168.43.109:22000-192.168.43.237:22000/tcp-server/TLS1.3-TLS_CHACHA20_POLY1305_SHA256 closed: reading length: read tcp 192.168.43.109:22000->192.168.43.237:22000: wsarecv: An existing connection was forcibly closed by the remote host.
+[OBKZE] 2023/06/04 22:49:11 INFO: Relay listener (dynamic+https://relays.syncthing.net/endpoint) shutting down
+[OBKZE] 2023/06/04 22:49:11 INFO: QUIC listener ([::]:22000) shutting down
+[OBKZE] 2023/06/04 22:49:12 INFO: TCP listener ([::]:22000) shutting down
+[OBKZE] 2023/06/04 22:49:12 INFO: Exiting
+[start] 2023/06/17 15:42:38 INFO: syncthing v1.23.4 "Fermium Flea" (go1.19.6 windows-amd64) builder@github.syncthing.net 2023-04-05 13:25:55 UTC
+[start] 2023/06/17 15:42:40 INFO: Upgrade available (current "v1.23.4" < latest "v1.23.5")
+[start] 2023/06/17 15:42:48 INFO: Upgraded to "v1.23.5", exiting now.
+[start] 2023/06/17 15:42:49 INFO: syncthing v1.23.5 "Fermium Flea" (go1.20.4 windows-amd64) builder@github.syncthing.net 2023-06-06 07:06:51 UTC
+[OBKZE] 2023/06/17 15:42:50 INFO: My ID: OBKZE5V-G74CJVS-CVNVLES-CODAF6W-5T5G3UP-MM55WET-LROGWB6-E2C4AQQ
+[OBKZE] 2023/06/17 15:42:50 INFO: Single thread SHA256 performance is 73 MB/s using minio/sha256-simd (73 MB/s using crypto/sha256).
+[OBKZE] 2023/06/17 15:42:51 INFO: Hashing performance is 66.79 MB/s
+[OBKZE] 2023/06/17 15:42:51 INFO: Detected upgrade from v1.23.4 to v1.23.5
+[OBKZE] 2023/06/17 15:42:51 INFO: Overall send rate is unlimited, receive rate is unlimited
+[OBKZE] 2023/06/17 15:42:51 INFO: Using discovery mechanism: global discovery server https://discovery.syncthing.net/v2/?noannounce&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[OBKZE] 2023/06/17 15:42:51 INFO: Using discovery mechanism: global discovery server https://discovery-v4.syncthing.net/v2/?nolookup&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[OBKZE] 2023/06/17 15:42:51 INFO: Using discovery mechanism: global discovery server https://discovery-v6.syncthing.net/v2/?nolookup&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[OBKZE] 2023/06/17 15:42:51 INFO: Using discovery mechanism: IPv4 local broadcast discovery on port 21027
+[OBKZE] 2023/06/17 15:42:51 INFO: Using discovery mechanism: IPv6 local multicast discovery on address [ff12::8384]:21027
+[OBKZE] 2023/06/17 15:42:51 INFO: Ready to synchronize "Syncthing-Data" (mj4zh-ncpkj) (sendreceive)
+[OBKZE] 2023/06/17 15:42:51 INFO: Relay listener (dynamic+https://relays.syncthing.net/endpoint) starting
+[OBKZE] 2023/06/17 15:42:51 INFO: GUI and API listening on 127.0.0.1:8384
+[OBKZE] 2023/06/17 15:42:51 INFO: Access the GUI via the following URL: http://127.0.0.1:8384/
+[OBKZE] 2023/06/17 15:42:51 INFO: My name is "EDU"
+[OBKZE] 2023/06/17 15:42:51 INFO: Device CTK4RBP-3K5YYZU-D54KGKY-MXE7ECA-3MEE4ME-TPV2S4N-HNBQ2WZ-FPZM6AI is "plr-xubuntu" at [dynamic]
+[OBKZE] 2023/06/17 15:42:51 INFO: Device SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ is "PLR-Windows" at [dynamic]
+[OBKZE] 2023/06/17 15:42:51 INFO: Device 4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM is "MED-LX9" at [dynamic]
+[OBKZE] 2023/06/17 15:42:51 INFO: TCP listener ([::]:22000) starting
+[OBKZE] 2023/06/17 15:42:51 INFO: QUIC listener ([::]:22000) starting
+[OBKZE] 2023/06/17 15:42:53 INFO: Completed initial scan of sendreceive folder "Syncthing-Data" (mj4zh-ncpkj)
+[OBKZE] 2023/06/17 15:42:54 INFO: Established secure connection to SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ at 192.168.43.109:22000-192.168.43.237:22000/tcp-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256/LAN-P10
+[OBKZE] 2023/06/17 15:42:54 INFO: Device SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ client is "syncthing v1.23.5" named "PLR-Windows" at 192.168.43.109:22000-192.168.43.237:22000/tcp-client/TLS1.3-TLS_CHACHA20_POLY1305_SHA256/LAN-P10
+[OBKZE] 2023/06/17 15:43:02 INFO: Detected 0 NAT services
+[OBKZE] 2023/06/17 15:43:11 INFO: quic://0.0.0.0:22000 detected NAT type: Port restricted NAT
+[OBKZE] 2023/06/17 15:43:11 INFO: quic://0.0.0.0:22000 resolved external address quic://203.189.184.25:22000 (via stun.syncthing.net:3478)
+[OBKZE] 2023/06/17 15:43:11 INFO: Joined relay relay://5.196.8.113:22067
