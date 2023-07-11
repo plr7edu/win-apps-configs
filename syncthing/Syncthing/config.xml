@@ -1,13 +1,13 @@
 <configuration version="37">
-    <folder id="mj4zh-ncpkj" label="Syncthing-Data" path="C:\Users\EDU\Documents\Syncthing-Data" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
+    <folder id="2oa9r-ybcxw" label="Syncthing-Data" path="C:\Users\EDU\Documents\Syncthing-Data" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="CTK4RBP-3K5YYZU-D54KGKY-MXE7ECA-3MEE4ME-TPV2S4N-HNBQ2WZ-FPZM6AI" introducedBy="">
+        <device id="DINZAJS-DVAMVY7-BEATIUH-LVGMAQF-I32MCOP-ND2Y6B2-VE4ZAA7-Y7JQGAX" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
-        <device id="OBKZE5V-G74CJVS-CVNVLES-CODAF6W-5T5G3UP-MM55WET-LROGWB6-E2C4AQQ" introducedBy="">
+        <device id="MMJHLZI-DYRXMR6-M3VWE4V-M4AYR64-EWOTB4T-TFCZVLO-4CSRWO2-KN7IZQU" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
-        <device id="SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ" introducedBy="">
+        <device id="T2LRRSV-FITU7BS-C5HQ7MQ-J5KHJZ7-RGVRS5S-7K2BRM6-J3BKTJS-TP2KLAJ" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="4E7PNAL-4H342SN-RFNOORH-WS54YVI-C5ISYYD-VHFRLPY-BIJJ43C-ULXVVQM" introducedBy="">
@@ -49,7 +49,7 @@
             <maxTotalSize>4096</maxTotalSize>
         </xattrFilter>
     </folder>
-    <device id="CTK4RBP-3K5YYZU-D54KGKY-MXE7ECA-3MEE4ME-TPV2S4N-HNBQ2WZ-FPZM6AI" name="plr-xubuntu" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
+    <device id="DINZAJS-DVAMVY7-BEATIUH-LVGMAQF-I32MCOP-ND2Y6B2-VE4ZAA7-Y7JQGAX" name="Debian-PC" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
         <autoAcceptFolders>false</autoAcceptFolders>
@@ -59,7 +59,7 @@
         <untrusted>false</untrusted>
         <remoteGUIPort>0</remoteGUIPort>
     </device>
-    <device id="OBKZE5V-G74CJVS-CVNVLES-CODAF6W-5T5G3UP-MM55WET-LROGWB6-E2C4AQQ" name="EDU" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
+    <device id="MMJHLZI-DYRXMR6-M3VWE4V-M4AYR64-EWOTB4T-TFCZVLO-4CSRWO2-KN7IZQU" name="PLR-PC" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
         <autoAcceptFolders>false</autoAcceptFolders>
@@ -69,7 +69,7 @@
         <untrusted>false</untrusted>
         <remoteGUIPort>0</remoteGUIPort>
     </device>
-    <device id="SLNZAEA-SZ7O4CK-NLMU2MI-POCLA7U-2GT54HS-ZGRUJVZ-FFQL3JN-XB7LTAQ" name="PLR-Windows" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
+    <device id="T2LRRSV-FITU7BS-C5HQ7MQ-J5KHJZ7-RGVRS5S-7K2BRM6-J3BKTJS-TP2KLAJ" name="EDU-File-Server" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
         <autoAcceptFolders>false</autoAcceptFolders>
@@ -92,8 +92,8 @@
     <gui enabled="true" tls="false" debugging="false">
         <address>127.0.0.1:8384</address>
         <user>plr</user>
-        <password>$2a$10$koSizwbe0ogFid.uezqTF.ncKFgk59eWQY7yZSlZ7XDR1zcsHE62q</password>
-        <apikey>93rep57GWiNXhdJdQuVQMMREbq9MYvm5</apikey>
+        <password>$2a$10$ZHhMau8bijMaSU.MqqxYJ.Mfb37YMmUhdK0ALRH9MW7dWRkIFUTgW</password>
+        <apikey>dFARNvYZACTae2KFpE6vfAspEs6qtgM5</apikey>
         <theme>dark</theme>
     </gui>
     <ldap></ldap>
@@ -114,9 +114,9 @@
         <natLeaseMinutes>60</natLeaseMinutes>
         <natRenewalMinutes>30</natRenewalMinutes>
         <natTimeoutSeconds>10</natTimeoutSeconds>
-        <urAccepted>3</urAccepted>
+        <urAccepted>-1</urAccepted>
         <urSeen>3</urSeen>
-        <urUniqueID>QrfXoEjT</urUniqueID>
+        <urUniqueID></urUniqueID>
         <urURL>https://data.syncthing.net/newdata</urURL>
         <urPostInsecurely>false</urPostInsecurely>
         <urInitialDelayS>1800</urInitialDelayS>
@@ -145,11 +145,17 @@
         <connectionLimitEnough>0</connectionLimitEnough>
         <connectionLimitMax>0</connectionLimitMax>
         <insecureAllowOldTLSVersions>false</insecureAllowOldTLSVersions>
+        <connectionPriorityTcpLan>10</connectionPriorityTcpLan>
+        <connectionPriorityQuicLan>20</connectionPriorityQuicLan>
+        <connectionPriorityTcpWan>30</connectionPriorityTcpWan>
+        <connectionPriorityQuicWan>40</connectionPriorityQuicWan>
+        <connectionPriorityRelay>50</connectionPriorityRelay>
+        <connectionPriorityUpgradeThreshold>0</connectionPriorityUpgradeThreshold>
     </options>
     <defaults>
         <folder id="" label="" path="~" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
             <filesystemType>basic</filesystemType>
-            <device id="OBKZE5V-G74CJVS-CVNVLES-CODAF6W-5T5G3UP-MM55WET-LROGWB6-E2C4AQQ" introducedBy="">
+            <device id="T2LRRSV-FITU7BS-C5HQ7MQ-J5KHJZ7-RGVRS5S-7K2BRM6-J3BKTJS-TP2KLAJ" introducedBy="">
                 <encryptionPassword></encryptionPassword>
             </device>
             <minDiskFree unit="%">1</minDiskFree>

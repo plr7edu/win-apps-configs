@@ -1,7 +1,7 @@
 <configuration version="37">
     <folder id="default" label="Default Folder" path="C:\Users\EDU\Sync" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="OBKZE5V-G74CJVS-CVNVLES-CODAF6W-5T5G3UP-MM55WET-LROGWB6-E2C4AQQ" introducedBy="">
+        <device id="T2LRRSV-FITU7BS-C5HQ7MQ-J5KHJZ7-RGVRS5S-7K2BRM6-J3BKTJS-TP2KLAJ" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <minDiskFree unit="%">1</minDiskFree>
@@ -40,7 +40,7 @@
             <maxTotalSize>4096</maxTotalSize>
         </xattrFilter>
     </folder>
-    <device id="OBKZE5V-G74CJVS-CVNVLES-CODAF6W-5T5G3UP-MM55WET-LROGWB6-E2C4AQQ" name="EDU" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
+    <device id="T2LRRSV-FITU7BS-C5HQ7MQ-J5KHJZ7-RGVRS5S-7K2BRM6-J3BKTJS-TP2KLAJ" name="EDU-PC" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
         <autoAcceptFolders>false</autoAcceptFolders>
@@ -52,7 +52,7 @@
     </device>
     <gui enabled="true" tls="false" debugging="false">
         <address>127.0.0.1:8384</address>
-        <apikey>93rep57GWiNXhdJdQuVQMMREbq9MYvm5</apikey>
+        <apikey>dFARNvYZACTae2KFpE6vfAspEs6qtgM5</apikey>
         <theme>default</theme>
     </gui>
     <ldap></ldap>
@@ -105,11 +105,17 @@
         <connectionLimitEnough>0</connectionLimitEnough>
         <connectionLimitMax>0</connectionLimitMax>
         <insecureAllowOldTLSVersions>false</insecureAllowOldTLSVersions>
+        <connectionPriorityTcpLan>10</connectionPriorityTcpLan>
+        <connectionPriorityQuicLan>20</connectionPriorityQuicLan>
+        <connectionPriorityTcpWan>30</connectionPriorityTcpWan>
+        <connectionPriorityQuicWan>40</connectionPriorityQuicWan>
+        <connectionPriorityRelay>50</connectionPriorityRelay>
+        <connectionPriorityUpgradeThreshold>0</connectionPriorityUpgradeThreshold>
     </options>
     <defaults>
         <folder id="" label="" path="~" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
             <filesystemType>basic</filesystemType>
-            <device id="OBKZE5V-G74CJVS-CVNVLES-CODAF6W-5T5G3UP-MM55WET-LROGWB6-E2C4AQQ" introducedBy="">
+            <device id="T2LRRSV-FITU7BS-C5HQ7MQ-J5KHJZ7-RGVRS5S-7K2BRM6-J3BKTJS-TP2KLAJ" introducedBy="">
                 <encryptionPassword></encryptionPassword>
             </device>
             <minDiskFree unit="%">1</minDiskFree>
