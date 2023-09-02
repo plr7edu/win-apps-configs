@@ -33,3 +33,4 @@ xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\typora\themes\" "
 ::xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\programdata\*" "%PROGRAMDATA%\Softouch\"
 ::xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\roaming\*" "%APPDATA%\Softouch\"
 
+pause
