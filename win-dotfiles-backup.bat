@@ -26,9 +26,6 @@ xcopy /y /E "%PROGRAMDATA%\Teorex\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-d
 ::JPEGView
 xcopy /y /E "%APPDATA%\JPEGView\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\jpegview\"
 
-::Easy Worship 7
-::xcopy /y /E "%PROGRAMDATA%\Softouch\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\programdata\"
-::xcopy /y /E "%APPDATA%\Softouch\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\roaming\"
 
 ::Create a Text file with current date and time
 

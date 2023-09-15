@@ -64,7 +64,9 @@
 
 body {
 	line-height: 1.5;
-	font-family: system-ui,
+	font-family: Nirmala UI;
+	
+	/*font-family: system-ui,
 		-apple-system, BlinkMacSystemFont,
 		"Segoe UI",
 		"Roboto",
@@ -74,13 +76,17 @@ body {
 		"Fira Sans",
 		"Droid Sans",
 		"Helvetica Neue",
-		Arial, sans-serif;
+		"Nirmala UI",
+		Arial, sans-serif; */
+		
 	font-weight: 500;
 }
 
 #write {
 	background-color: var(--bg-color) !important;
-	font-family: system-ui,
+	font-family: Nirmala UI;
+	
+	/*font-family: system-ui,
 		-apple-system, BlinkMacSystemFont,
 		"Segoe UI",
 		"Roboto",
@@ -90,7 +96,8 @@ body {
 		"Fira Sans",
 		"Droid Sans",
 		"Helvetica Neue",
-		Arial, sans-serif;
+		Arial, sans-serif;*/
+		
 	font-weight: 500;
 	max-width: 860px;
 	margin: 0 auto;
