@@ -112,5 +112,38 @@ matches:
         type: date
         params:
           format: "%H:%M:%S"
+          
+# EasyWorship Expander --------------------------------------------------------------------------------
+
+#Sinhala Hymns
+
+#ගීතිකාව :
+
+  - trigger: ":t"
+    replace: "ගීතිකාව :"
+    
+#පුන ගැයුම :
+
+  - trigger: ":c"
+    replace: "පුන ගැයුම :"
+    
+#අරම්භය :
+
+  - trigger: ":s"
+    replace: "අරම්භය :"    
+
+#අවසානය :
+
+  - trigger: ":e"
+    replace: "අවසානය :"          
+    
+#කිතුණු ගී අංක -
+
+  - trigger: ":n"
+    replace: "කිතුණු ගී අංක - "  
+
+
+            
+            
 
 # And much more! For more information, visit the docs: https://espanso.org/docs/
