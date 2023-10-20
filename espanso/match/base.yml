@@ -142,7 +142,19 @@ matches:
   - trigger: ":n"
     replace: "කිතුණු ගී අංක - "  
 
+# Sinhala Font Fixers (Unicode) -----------------------------------------------------------------------
 
+#Sinhala Hymns
+
+#සඟල වරහන් - අරම්භය :
+
+  - trigger: "-"
+    replace: "“"
+    
+#සඟල වරහන් - අවසානය :
+
+  - trigger: "="
+    replace: "”"
             
             
 
