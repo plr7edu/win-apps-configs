@@ -139,9 +139,32 @@ matches:
     
 #කිතුණු ගී අංක -
 
-  - trigger: ":n"
+  - trigger: ":nu"
     replace: "කිතුණු ගී අංක - "  
 
+
+#English Hymns
+
+#HYMN :
+
+  - trigger: ":T"
+    replace: "HYMN"
+    
+#පුන ගැයුම :
+
+  - trigger: ":C"
+    replace: "CHORUS"
+    
+#අරම්භය :
+
+  - trigger: ":S"
+    replace: "START"    
+
+#අවසානය :
+
+  - trigger: ":E"
+    replace: "ENDING"          
+    
 # Sinhala Font Fixers (Unicode) -----------------------------------------------------------------------
 
 #Sinhala Hymns
