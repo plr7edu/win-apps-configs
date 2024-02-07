@@ -11,14 +11,8 @@ xcopy "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\WindowsPowerShell\" "%H
 ::Windows Terminal
 xcopy /y "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\Windows-Terminal-Settings\*" "%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState"
 
-::Geany
-xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\geany" "%APPDATA%\geany\"
-
 ::Espanso
 xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\espanso" "%APPDATA%\espanso\"
-
-::FolderIco
-xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\folderIco\*" "%PROGRAMDATA%\Teorex\"
 
 ::Jdonwloader2
 xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\jdownloader2\" "%LOCALAPPDATA%\JDownloader 2.0\cfg\"

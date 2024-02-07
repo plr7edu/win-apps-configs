@@ -14,14 +14,8 @@ xcopy /y "%HOMEPATH%\Documents\WindowsPowerShell" "%HOMEPATH%\Documents\MY-GIT-R
 ::Windows Terminal Settings Json
 xcopy /y "%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\Windows-Terminal-Settings"
 
-::Geany
-xcopy /y /E "%APPDATA%\geany\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\geany\"
-
 ::Espanso
 xcopy /y /E "%APPDATA%\espanso\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\espanso\"
-
-::FolderIco
-xcopy /y /E "%PROGRAMDATA%\Teorex\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\folderico\"
 
 ::JPEGView
 xcopy /y /E "%APPDATA%\JPEGView\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\jpegview\"
