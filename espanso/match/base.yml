@@ -102,7 +102,7 @@ matches:
 
 # Time & date now --------------------------------------------------------------------------------
   - trigger: ":now"
-    replace: "{{mydate}} {{mytime}}"
+    replace: "{{mydate}}_{{mytime}}"
     vars:
       - name: mydate
         type: date
@@ -111,7 +111,7 @@ matches:
       - name: mytime
         type: date
         params:
-          format: "%H:%M:%S"
+          format: "%H.%M.%S"
           
 # EasyWorship Expander --------------------------------------------------------------------------------
 
@@ -119,7 +119,7 @@ matches:
 
 #ගීතිකාව :
 
-  - trigger: ":t"
+  - trigger: ":h"
     replace: "ගීතිකාව :"
     
 #පුන ගැයුම :
@@ -147,7 +147,7 @@ matches:
 
 #HYMN :
 
-  - trigger: ":T"
+  - trigger: ":H"
     replace: "HYMN"
     
 #පුන ගැයුම :
