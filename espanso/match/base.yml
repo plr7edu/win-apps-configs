@@ -102,7 +102,7 @@ matches:
 
 # Time & date now --------------------------------------------------------------------------------
   - trigger: ":now"
-    replace: "{{mydate}}_{{mytime}}"
+    replace: "{{mydate}}-{{mytime}}"
     vars:
       - name: mydate
         type: date
