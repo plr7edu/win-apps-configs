@@ -1,24 +1,23 @@
 ::Delete Last-Update_XXXX.txt
 del "Last-Update-Time*.txt"
 
-
 ::Alacritty
-xcopy /y "%APPDATA%\alacritty\" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\alacritty"
+xcopy  /y /E "%APPDATA%\alacritty\*" "%HOMEPATH%\Documents\Windows-Git-Repos\windows-dotfiles\alacritty"
 
 ::Starship
-xcopy /y "%APPDATA%\starship\" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\starship"
+xcopy /y "%APPDATA%\starship\" "%HOMEPATH%\Documents\Windows-Git-Repos\windows-dotfiles\starship"
 
 ::Windows PowerShell
-xcopy /y "%HOMEPATH%\Documents\WindowsPowerShell" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\WindowsPowerShell"
+xcopy /y /E "%HOMEPATH%\Documents\WindowsPowerShell" "%HOMEPATH%\Documents\Windows-Git-Repos\windows-dotfiles\WindowsPowerShell"
 
 ::Windows Terminal Settings Json
-xcopy /y "%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\Windows-Terminal-Settings"
+xcopy /y "%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\*" "%HOMEPATH%\Documents\Windows-Git-Repos\windows-dotfiles\Windows-Terminal-Settings"
 
 ::Espanso
-xcopy /y /E "%APPDATA%\espanso\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\espanso\"
+xcopy /y /E "%APPDATA%\espanso\*" "%HOMEPATH%\Documents\Windows-Git-Repos\windows-dotfiles\espanso\"
 
 ::JPEGView
-xcopy /y /E "%APPDATA%\JPEGView\*" "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\jpegview\"
+xcopy /y /E "%APPDATA%\JPEGView\*" "%HOMEPATH%\Documents\Windows-Git-Repos\windows-dotfiles\jpegview\"
 
 
 ::Create a Text file with current date and time

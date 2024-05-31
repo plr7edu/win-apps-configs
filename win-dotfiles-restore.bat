@@ -1,30 +1,26 @@
 
 ::Alaritty
-xcopy "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\alacritty\" "%APPDATA%\alacritty\" 
+xcopy "%HOMEPATH%\Documents\Windows-Git-Repos\windows-dotfiles\alacritty\" "%APPDATA%\alacritty\" 
 
 ::Starship
-xcopy "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\starship\" "%APPDATA%\starship\"
+xcopy "%HOMEPATH%\Documents\Windows-Git-Repos\windows-dotfiles\starship\" "%APPDATA%\starship\"
 
 ::WindowsPowershell
-xcopy "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\WindowsPowerShell\" "%HOMEPATH%\Documents\WindowsPowerShell\"
+xcopy "%HOMEPATH%\Documents\Windows-Git-Repos\windows-dotfiles\WindowsPowerShell\" "%HOMEPATH%\Documents\WindowsPowerShell\"
 
 ::Windows Terminal
-xcopy /y "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\Windows-Terminal-Settings\*" "%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState"
+xcopy /y "%HOMEPATH%\Documents\Windows-Git-Repos\windows-dotfiles\Windows-Terminal-Settings\*" "%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState"
 
 ::Espanso
-xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\espanso" "%APPDATA%\espanso\"
+xcopy /y /E "%HOMEPATH%\Documents\Windows-Git-Repos\windows-dotfiles\espanso" "%APPDATA%\espanso\"
 
 ::Jdonwloader2
-xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\jdownloader2\" "%LOCALAPPDATA%\JDownloader 2.0\cfg\"
+xcopy /y /E "%HOMEPATH%\Documents\Windows-Git-Repos\windows-dotfiles\jdownloader2\laf" "%LOCALAPPDATA%\JDownloader 2.0\cfg\"
 
 ::JPEGView
-xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\jpegview\*" "%APPDATA%\JPEGView\"
+xcopy /y /E "%HOMEPATH%\Documents\Windows-Git-Repos\windows-dotfiles\jpegview\*" "%APPDATA%\JPEGView\"
 
 ::Typora (Themes)
-xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\typora\themes\" "%APPDATA%\Typora\themes\"
-
-::Easy Worship 7
-::xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\programdata\*" "%PROGRAMDATA%\Softouch\"
-::xcopy /y /E "%HOMEPATH%\Documents\MY-GIT-REPO\windows-dotfiles\easyworship7\roaming\*" "%APPDATA%\Softouch\"
+xcopy /y /E "%HOMEPATH%\Documents\Windows-Git-Repos\windows-dotfiles\typora\themes\" "%APPDATA%\Typora\themes\"
 
 pause
