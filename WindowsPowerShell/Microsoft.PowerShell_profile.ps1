@@ -164,8 +164,9 @@ function subl {
 
 # Open with VS Code
 function code {
-	& "code" -g @args
+	& "$env:C:\Users\player-1\AppData\Local\Programs\Microsoft VS Code\Code.exe" @args
 }
+
 
 ### Quality of Life Aliases
 
@@ -182,12 +183,14 @@ function vi { Set-Location -Path $HOME\Videos }
 
 function ho { Set-Location -Path $HOME }
 
+function gitd { Set-Location -Path $HOME\Documents\Windows-Git-Repos }
+
 function dot { Set-Location -Path $HOME\Documents\Windows-Git-Repos\windows-dotfiles }
 
 function wint { Set-Location -Path $HOME\Documents\Windows-Git-Repos\win-t }
 
 # Quick Access to Editing the Profile
-function ep { vim $PROFILE }
+function ep { code $PROFILE }
 
 # Simplified Process Management
 function k9 { Stop-Process -Name $args[0] }
@@ -197,7 +200,7 @@ function la { Get-ChildItem -Path . -Force | Format-Table -AutoSize }
 function ll { Get-ChildItem -Path . -Force -Hidden | Format-Table -AutoSize }
 
 # Git Shortcuts
-function gs { git status }
+function st { git status }
 
 function ga { git add . }
 
