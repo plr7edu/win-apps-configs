@@ -189,6 +189,8 @@ function dot { Set-Location -Path $HOME\Documents\Windows-Git-Repos\windows-dotf
 
 function wint { Set-Location -Path $HOME\Documents\Windows-Git-Repos\win-t }
 
+function cpt { Set-Location -Path C:\Church-Presentation-Tools }
+
 # Quick Access to Editing the Profile
 function ep { code $PROFILE }
 
