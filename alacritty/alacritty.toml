@@ -12,7 +12,7 @@
 import = ["%APPDATA%/alacritty/color-schemes/catppuccin-mocha.toml"]
 
 [shell]
-program = "ubuntu2404"
+program = "ubuntu2204"
 
 # ENV ---------------------------------------------------------------------------
 
