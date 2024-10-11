@@ -24,6 +24,6 @@ Copy-Item -Path "$HOME\Documents\Windows-Git-Repos\windows-dotfiles\jdownloader2
 Copy-Item -Path "$HOME\Documents\Windows-Git-Repos\windows-dotfiles\jpegview\JPEGView\" -Destination "$env:APPDATA\JPEGView\" -Recurse -Force
 
 # Typora (Themes)
-Copy-Item -Path "$HOME\Documents\Windows-Git-Repos\windows-dotfiles\typora\themes\*" -Destination "$env:APPDATA\Typora\themes\" -Recurse -Force
+Copy-Item -Path "$HOME\Documents\Windows-Git-Repos\windows-dotfiles\typora\themes\*" -Destination "$env:PROGRAMFILES\Typora\resources\style\themes\" -Recurse -Force
 
 Read-Host -Prompt "Press any key to continue"
