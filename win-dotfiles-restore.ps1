@@ -26,4 +26,7 @@ Copy-Item -Path "$HOME\Documents\Windows-Git-Repos\windows-dotfiles\jpegview\JPE
 # Typora (Themes)
 Copy-Item -Path "$HOME\Documents\Windows-Git-Repos\windows-dotfiles\typora\themes\*" -Destination "$env:PROGRAMFILES\Typora\resources\style\themes\" -Recurse -Force
 
+# New + Templates
+Copy-Item -Path "$HOME\Documents\Windows-Git-Repos\windows-dotfiles\new+\*" -Destination "$env:LOCALAPPDATA\Microsoft\PowerToys\NewPlus\Templates" -Recurse -Force
+
 Read-Host -Prompt "Press any key to continue"
