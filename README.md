@@ -4,16 +4,16 @@ Simple backup and restore for selected Windows app configuration files.
 
 ## File/Folder Mapping (Repo ⇄ System)
 
-| Area         | Repo path                              | System path                                  | Notes                                      |
-|--------------|----------------------------------------|----------------------------------------------|--------------------------------------------|
-| Documents    | `Documents/PowerShell`                 | `%USERPROFILE%\Documents\PowerShell`         | PowerShell 7                               |
-| Documents    | `Documents/PowerToys`                  | `%USERPROFILE%\Documents\PowerToys`          | PowerToys, PowerToys (NewPlus)             |
-| AppData      | `AppData/espanso`                      | `%APPDATA%\espanso`                           | Espanso                                    |
-| AppData      | `AppData/JPEGView`                     | `%APPDATA%\JPEGView`                          | JPEGView                                   |
-| AppData      | `AppData/GPSoftware`                   | `%APPDATA%\GPSoftware`                        | Directory Opus                             |
-| AppData      | `AppData/FileZilla/*.xml`              | `%APPDATA%\FileZilla`                         | XML files only                             |
-| LocalAppData | `LocalAppData/JDownloader 2.0/cfg`     | `%LOCALAPPDATA%\JDownloader 2.0\cfg`         | Full configuration                         |
-| ProgramFiles | `ProgramFiles/Typora/.../themes/*.css` | `%PROGRAMFILES%\Typora\resources\style\themes` | Typora themes (github‑dark variants)       |
+| Application        | System Path                                           | Current Path                                      |
+|--------------------|--------------------------------------------------------|---------------------------------------------------|
+| Windows PowerShell | %USERPROFILE%\Documents\PowerShell                     | Documents/PowerShell                              |
+| PowerToys          | %USERPROFILE%\Documents\PowerToys                      | Documents/PowerToys                               |
+| Espanso            | %APPDATA%\espanso                                      | AppData/espanso                                   |
+| JPEGView           | %APPDATA%\JPEGView                                     | AppData/JPEGView                                  |
+| Directory Opus     | %APPDATA%\GPSoftware                                   | AppData/GPSoftware                                |
+| JDownloader 2      | %LOCALAPPDATA%\JDownloader 2.0\cfg                     | LocalAppData/JDownloader 2.0/cfg                  |
+| FileZilla (XML)    | %APPDATA%\FileZilla                                    | AppData/FileZilla/*.xml                           |
+| Typora Themes      | %PROGRAMFILES%\Typora\resources\style\themes\*.css     | ProgramFiles/Typora/resources/style/themes/*.css  |
 
 ## Scripts
 - `!Backup-AppConfigs.ps1` — backs up from system to repo.
