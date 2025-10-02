@@ -42,7 +42,7 @@ Write-Host ""
 
 # Set current path
 $CurrentPath = $PSScriptRoot
-Write-Host "[INFO] Current Path: $CurrentPath" -ForegroundColor Gray
+Write-Host "[INFO] Restore Source: $CurrentPath" -ForegroundColor Gray
 Write-Host ""
 
 # Define applications to terminate
@@ -56,7 +56,9 @@ $applicationsToKill = @(
     "JDownloader",
     "JDownloader2",
     "java",
-    "Typora"
+    "Typora",
+    "dopus",
+    "filezilla"
 )
 
 # Terminate running applications
@@ -84,27 +86,66 @@ foreach ($app in $applicationsToKill) {
 Write-Host ""
 Start-Sleep -Seconds 2
 
-# Define restoration paths
-$restorePaths = @(
+# Define folder restoration paths
+$restoreFolders = @(
     @{
-        Source = "$CurrentPath\Documents\*"
-        Destination = "$HOME\Documents\"
-        Description = "Windows PowerShell 7, PowerToys, PowerToys (NewPlus)"
+        Source = "$CurrentPath\Documents\PowerShell"
+        Destination = "$HOME\Documents\PowerShell"
+        Description = "Windows PowerShell 7"
     },
     @{
-        Source = "$CurrentPath\AppData\*"
-        Destination = "$env:APPDATA"
-        Description = "Espanso, JPEGView"
+        Source = "$CurrentPath\Documents\PowerToys"
+        Destination = "$HOME\Documents\PowerToys"
+        Description = "PowerToys, PowerToys (NewPlus)"
     },
     @{
-        Source = "$CurrentPath\LocalAppData\*"
-        Destination = "$env:LOCALAPPDATA"
-        Description = "JDownloader (Dark Theme)"
+        Source = "$CurrentPath\AppData\espanso"
+        Destination = "$env:APPDATA\espanso"
+        Description = "Espanso"
     },
     @{
-        Source = "$CurrentPath\ProgramFiles\*"
-        Destination = "$env:PROGRAMFILES"
-        Description = "Typora Themes"
+        Source = "$CurrentPath\AppData\JPEGView"
+        Destination = "$env:APPDATA\JPEGView"
+        Description = "JPEGView"
+    },
+    @{
+        Source = "$CurrentPath\AppData\GPSoftware"
+        Destination = "$env:APPDATA\GPSoftware"
+        Description = "Directory Opus"
+    },
+    @{
+        Source = "$CurrentPath\LocalAppData\JDownloader 2.0\cfg"
+        Destination = "$env:LOCALAPPDATA\JDownloader 2.0\cfg"
+        Description = "JDownloader 2 (Full Configuration)"
+    }
+)
+
+# Define specific files to restore
+$restoreFiles = @(
+    @{
+        Source = "$CurrentPath\ProgramFiles\Typora\resources\style\themes\github-dark-default.css"
+        Destination = "${env:PROGRAMFILES}\Typora\resources\style\themes\github-dark-default.css"
+        Description = "Typora Theme (github-dark-default)"
+    }
+    @{
+        Source = "$CurrentPath\ProgramFiles\Typora\resources\style\themes\github-dark-dimmed.css"
+        Destination = "${env:PROGRAMFILES}\Typora\resources\style\themes\github-dark-dimmed.css"
+        Description = "Typora Theme (github-dark-dimmed)"
+    }
+    @{
+        Source = "$CurrentPath\ProgramFiles\Typora\resources\style\themes\github-dark-high-contrast.css"
+        Destination = "${env:PROGRAMFILES}\Typora\resources\style\themes\github-dark-high-contrast.css"
+        Description = "Typora Theme (github-dark-high-contrast)"
+    }
+)
+
+# Define wildcard file restores
+$restoreWildcards = @(
+    @{
+        SourceFolder = "$CurrentPath\AppData\FileZilla"
+        DestinationFolder = "$env:APPDATA\FileZilla"
+        Pattern = "*.xml"
+        Description = "FileZilla (XML Configuration Files)"
     }
 )
 
@@ -115,23 +156,103 @@ Write-Host "──────────────────────�
 Write-Host ""
 
 $successCount = 0
-$totalCount = $restorePaths.Count
+$totalCount = $restoreFolders.Count + $restoreFiles.Count + $restoreWildcards.Count
 
-foreach ($path in $restorePaths) {
-    Write-Host "[→] Restoring: $($path.Description)" -ForegroundColor Cyan
+# Restore folders
+foreach ($folder in $restoreFolders) {
+    Write-Host "[→] Restoring: $($folder.Description)" -ForegroundColor Cyan
     
-    if (Test-Path -Path $path.Source.TrimEnd('\*')) {
+    if (Test-Path -Path $folder.Source) {
         try {
-            Copy-Item -Path $path.Source -Destination $path.Destination -Recurse -Force -ErrorAction Stop
-            Write-Host "[✓] Success: Configuration files copied to $($path.Destination)" -ForegroundColor Green
+            # Ensure destination parent directory exists
+            $destParent = Split-Path -Path $folder.Destination -Parent
+            if (-not (Test-Path -Path $destParent)) {
+                New-Item -Path $destParent -ItemType Directory -Force | Out-Null
+            }
+            
+            # Remove existing configuration if it exists
+            if (Test-Path -Path $folder.Destination) {
+                Remove-Item -Path $folder.Destination -Recurse -Force -ErrorAction Stop
+            }
+            
+            # Copy files
+            Copy-Item -Path $folder.Source -Destination $folder.Destination -Recurse -Force -ErrorAction Stop
+            Write-Host "[✓] Success: Configuration files restored to $($folder.Destination)" -ForegroundColor Green
             $successCount++
         }
         catch {
-            Write-Host "[✗] Error: Failed to copy files - $($_.Exception.Message)" -ForegroundColor Red
+            Write-Host "[✗] Error: Failed to restore files - $($_.Exception.Message)" -ForegroundColor Red
         }
     }
     else {
-        Write-Host "[!] Warning: Source path not found - $($path.Source)" -ForegroundColor Yellow
+        Write-Host "[!] Warning: Source path not found - $($folder.Source)" -ForegroundColor Yellow
+    }
+    Write-Host ""
+}
+
+# Restore specific files
+foreach ($file in $restoreFiles) {
+    Write-Host "[→] Restoring: $($file.Description)" -ForegroundColor Cyan
+    
+    if (Test-Path -Path $file.Source) {
+        try {
+            # Ensure destination directory exists
+            $destParent = Split-Path -Path $file.Destination -Parent
+            if (-not (Test-Path -Path $destParent)) {
+                New-Item -Path $destParent -ItemType Directory -Force | Out-Null
+            }
+            
+            # Remove existing file if it exists
+            if (Test-Path -Path $file.Destination) {
+                Remove-Item -Path $file.Destination -Force -ErrorAction Stop
+            }
+            
+            # Copy file
+            Copy-Item -Path $file.Source -Destination $file.Destination -Force -ErrorAction Stop
+            Write-Host "[✓] Success: File restored to $($file.Destination)" -ForegroundColor Green
+            $successCount++
+        }
+        catch {
+            Write-Host "[✗] Error: Failed to restore file - $($_.Exception.Message)" -ForegroundColor Red
+        }
+    }
+    else {
+        Write-Host "[!] Warning: Source file not found - $($file.Source)" -ForegroundColor Yellow
+    }
+    Write-Host ""
+}
+
+# Restore wildcard files
+foreach ($wildcard in $restoreWildcards) {
+    Write-Host "[→] Restoring: $($wildcard.Description)" -ForegroundColor Cyan
+    
+    $sourcePattern = Join-Path -Path $wildcard.SourceFolder -ChildPath $wildcard.Pattern
+    $matchedFiles = Get-ChildItem -Path $sourcePattern -ErrorAction SilentlyContinue
+    
+    if ($matchedFiles) {
+        try {
+            # Ensure destination directory exists
+            if (-not (Test-Path -Path $wildcard.DestinationFolder)) {
+                New-Item -Path $wildcard.DestinationFolder -ItemType Directory -Force | Out-Null
+            }
+            
+            # Copy all matched files
+            $fileCount = 0
+            foreach ($matchedFile in $matchedFiles) {
+                $destPath = Join-Path -Path $wildcard.DestinationFolder -ChildPath $matchedFile.Name
+                Copy-Item -Path $matchedFile.FullName -Destination $destPath -Force -ErrorAction Stop
+                $fileCount++
+            }
+            
+            Write-Host "[✓] Success: $fileCount file(s) restored to $($wildcard.DestinationFolder)" -ForegroundColor Green
+            $successCount++
+        }
+        catch {
+            Write-Host "[✗] Error: Failed to restore files - $($_.Exception.Message)" -ForegroundColor Red
+        }
+    }
+    else {
+        Write-Host "[!] Warning: No files found matching pattern in $($wildcard.SourceFolder)" -ForegroundColor Yellow
     }
     Write-Host ""
 }
@@ -156,6 +277,8 @@ else {
     Write-Host "  Please review the messages above for any issues." -ForegroundColor Gray
 }
 
+Write-Host ""
+Write-Host "  Restored from: $CurrentPath" -ForegroundColor Gray
 Write-Host ""
 Write-Host "═══════════════════════════════════════════════════════════════" -ForegroundColor Cyan
 Write-Host ""

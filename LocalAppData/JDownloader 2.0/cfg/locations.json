@@ -1,0 +1,148 @@
+{
+ "data" : {
+           "RememberLastDimensor-org.jdownloader.gui.views.components.packagetable.context.rename.RenameDialog"                                         : {
+                                                                                                                                                           "extendedState" : null,
+                                                                                                                                                           "lastAccess"    : 1758971722013,
+                                                                                                                                                           "type"          : null,
+                                                                                                                                                           "x"             : 500,
+                                                                                                                                                           "y"             : 152,
+                                                                                                                                                           "valid"         : true
+                                                                                                                                                          },
+           "RememberRelativeDialogLocator-org.jdownloader.gui.views.linkgrabber.contextmenu.ConfirmLinksContextAction-6ac8d06075b6c9bc8a85eef97cf7f42c" : {
+                                                                                                                                                           "extendedState" : null,
+                                                                                                                                                           "lastAccess"    : 1757677084419,
+                                                                                                                                                           "type"          : null,
+                                                                                                                                                           "x"             : 0,
+                                                                                                                                                           "y"             : 0,
+                                                                                                                                                           "valid"         : false
+                                                                                                                                                          },
+           "RememberRelativeDialogLocator-org.jdownloader.gui.views.downloads.action.ConfirmDeleteLinksDialog-729a51874fe901b092899e9e8b31c97a"         : {
+                                                                                                                                                           "extendedState" : null,
+                                                                                                                                                           "lastAccess"    : 1758179550940,
+                                                                                                                                                           "type"          : null,
+                                                                                                                                                           "x"             : 0,
+                                                                                                                                                           "y"             : 0,
+                                                                                                                                                           "valid"         : false
+                                                                                                                                                          },
+           "RememberLastDimensor-AddLinksDialog"                                                                                                        : {
+                                                                                                                                                           "extendedState" : null,
+                                                                                                                                                           "lastAccess"    : 1758980040840,
+                                                                                                                                                           "type"          : null,
+                                                                                                                                                           "x"             : 700,
+                                                                                                                                                           "y"             : 300,
+                                                                                                                                                           "valid"         : true
+                                                                                                                                                          },
+           "RememberAbsoluteLocator-org.jdownloader.gui.views.components.packagetable.context.rename.RenameDialog"                                      : {
+                                                                                                                                                           "extendedState" : null,
+                                                                                                                                                           "lastAccess"    : 1758971722013,
+                                                                                                                                                           "type"          : "absolute",
+                                                                                                                                                           "x"             : 334,
+                                                                                                                                                           "y"             : 275,
+                                                                                                                                                           "valid"         : true
+                                                                                                                                                          },
+           "RememberRelativeDialogLocator-org.appwork.utils.swing.dialog.ConfirmDialog-d38b7bd8020d320abc096faa81f5a02f"                                : {
+                                                                                                                                                           "extendedState" : null,
+                                                                                                                                                           "lastAccess"    : 1758982560814,
+                                                                                                                                                           "type"          : null,
+                                                                                                                                                           "x"             : 0,
+                                                                                                                                                           "y"             : 0,
+                                                                                                                                                           "valid"         : false
+                                                                                                                                                          },
+           "RememberRelativeLocator-Updater"                                                                                                            : {
+                                                                                                                                                           "extendedState" : "NORMAL",
+                                                                                                                                                           "lastAccess"    : 1758176209977,
+                                                                                                                                                           "type"          : "relative",
+                                                                                                                                                           "x"             : 622,
+                                                                                                                                                           "y"             : 386,
+                                                                                                                                                           "valid"         : true
+                                                                                                                                                          },
+           "RememberRelativeDialogLocator-org.jdownloader.controlling.ffmpeg.FFMpegInstallTypeChooserDialog-6aa44d0338c2205d3ec0d5efc8909aa9"           : {
+                                                                                                                                                           "extendedState" : null,
+                                                                                                                                                           "lastAccess"    : 1757551272109,
+                                                                                                                                                           "type"          : null,
+                                                                                                                                                           "x"             : 0,
+                                                                                                                                                           "y"             : 0,
+                                                                                                                                                           "valid"         : false
+                                                                                                                                                          },
+           "RememberRelativeDialogLocator-org.jdownloader.updatev2.UpdateController-dffcaa73f651f280c1123b468dd5f0da"                                   : {
+                                                                                                                                                           "extendedState" : null,
+                                                                                                                                                           "lastAccess"    : 1757551292647,
+                                                                                                                                                           "type"          : null,
+                                                                                                                                                           "x"             : 0,
+                                                                                                                                                           "y"             : 0,
+                                                                                                                                                           "valid"         : false
+                                                                                                                                                          },
+           "RememberRelativeDialogLocator-jd.controlling.linkcollector.GenericResetLinkgrabberRlyDialog-729a51874fe901b092899e9e8b31c97a"               : {
+                                                                                                                                                           "extendedState" : null,
+                                                                                                                                                           "lastAccess"    : 1758978633822,
+                                                                                                                                                           "type"          : "relative",
+                                                                                                                                                           "x"             : 428,
+                                                                                                                                                           "y"             : 254,
+                                                                                                                                                           "valid"         : true
+                                                                                                                                                          },
+           "RememberAbsoluteLocator-UpdaterFrame"                                                                                                       : {
+                                                                                                                                                           "extendedState" : "NORMAL",
+                                                                                                                                                           "lastAccess"    : 1758176209977,
+                                                                                                                                                           "type"          : "absolute",
+                                                                                                                                                           "x"             : 1070,
+                                                                                                                                                           "y"             : 538,
+                                                                                                                                                           "valid"         : true
+                                                                                                                                                          },
+           "RememberRelativeDialogLocator-AddLinksProgress"                                                                                             : {
+                                                                                                                                                           "extendedState" : null,
+                                                                                                                                                           "lastAccess"    : 1758980045584,
+                                                                                                                                                           "type"          : "relative",
+                                                                                                                                                           "x"             : 265,
+                                                                                                                                                           "y"             : 306,
+                                                                                                                                                           "valid"         : true
+                                                                                                                                                          },
+           "RememberRelativeDialogLocator-AddLinksDialog"                                                                                               : {
+                                                                                                                                                           "extendedState" : null,
+                                                                                                                                                           "lastAccess"    : 1758980040840,
+                                                                                                                                                           "type"          : "relative",
+                                                                                                                                                           "x"             : 162,
+                                                                                                                                                           "y"             : 214,
+                                                                                                                                                           "valid"         : true
+                                                                                                                                                          },
+           "RememberRelativeDialogLocator-org.jdownloader.gui.views.linkgrabber.contextmenu.ConfirmLinksContextAction-d12f0b448c8d24877ce20294c9cbc556" : {
+                                                                                                                                                           "extendedState" : null,
+                                                                                                                                                           "lastAccess"    : 1758971724327,
+                                                                                                                                                           "type"          : null,
+                                                                                                                                                           "x"             : 0,
+                                                                                                                                                           "y"             : 0,
+                                                                                                                                                           "valid"         : false
+                                                                                                                                                          },
+           "RememberRelativeDialogLocator-jd.controlling.downloadcontroller.IfFileExistsDialog-64b4b1405f7ecef7bf165c08af78a1de"                        : {
+                                                                                                                                                           "extendedState" : null,
+                                                                                                                                                           "lastAccess"    : 1758980048825,
+                                                                                                                                                           "type"          : null,
+                                                                                                                                                           "x"             : 0,
+                                                                                                                                                           "y"             : 0,
+                                                                                                                                                           "valid"         : false
+                                                                                                                                                          },
+           "RememberRelativeDialogLocator-org.jdownloader.gui.helpdialogs.HelpDialog-b5db62cdd9c768332deb5295be302450"                                  : {
+                                                                                                                                                           "extendedState" : null,
+                                                                                                                                                           "lastAccess"    : 1758968974029,
+                                                                                                                                                           "type"          : "relative",
+                                                                                                                                                           "x"             : 335,
+                                                                                                                                                           "y"             : 454,
+                                                                                                                                                           "valid"         : true
+                                                                                                                                                          },
+           "RememberRelativeDialogLocator-org.appwork.utils.swing.dialog.ConfirmDialog-51bf2189688b3cec68f767e74cba248f"                                : {
+                                                                                                                                                           "extendedState" : null,
+                                                                                                                                                           "lastAccess"    : 1757551323443,
+                                                                                                                                                           "type"          : null,
+                                                                                                                                                           "x"             : 0,
+                                                                                                                                                           "y"             : 0,
+                                                                                                                                                           "valid"         : false
+                                                                                                                                                          },
+           "RememberRelativeDialogLocator-org.jdownloader.updatev2.UpdateController-7576238815b933e2ed9db8fee670629b"                                   : {
+                                                                                                                                                           "extendedState" : null,
+                                                                                                                                                           "lastAccess"    : 1758176192253,
+                                                                                                                                                           "type"          : null,
+                                                                                                                                                           "x"             : 0,
+                                                                                                                                                           "y"             : 0,
+                                                                                                                                                           "valid"         : false
+                                                                                                                                                          }
+          }
+}

@@ -56,7 +56,9 @@ $applicationsToKill = @(
     "JDownloader",
     "JDownloader2",
     "java",
-    "Typora"
+    "Typora",
+    "dopus",
+    "filezilla"
 )
 
 # Terminate running applications
@@ -109,16 +111,23 @@ $backupPaths = @(
         Destination = "$CurrentPath\AppData\JPEGView"
         Description = "JPEGView"
         Type = "Folder"
+    },
+    @{
+        Source = "$env:APPDATA\GPSoftware"
+        Destination = "$CurrentPath\AppData\GPSoftware"
+        Description = "Directory Opus"
+        Type = "Folder"
+    },
+    @{
+        Source = "$env:LOCALAPPDATA\JDownloader 2.0\cfg"
+        Destination = "$CurrentPath\LocalAppData\JDownloader 2.0\cfg"
+        Description = "JDownloader 2 (Full Configuration)"
+        Type = "Folder"
     }
 )
 
 # Define specific files to backup
 $specificFiles = @(
-    @{
-        Source = "$env:LOCALAPPDATA\JDownloader 2.0\cfg\laf\FlatDarculaLaf.json"
-        Destination = "$CurrentPath\LocalAppData\JDownloader 2.0\cfg\laf\FlatDarculaLaf.json"
-        Description = "JDownloader (Dark Theme)"
-    }
     @{
         Source = "${env:PROGRAMFILES}\Typora\resources\style\themes\github-dark-default.css"
         Destination = "$CurrentPath\ProgramFiles\Typora\resources\style\themes\github-dark-default.css"
@@ -133,6 +142,15 @@ $specificFiles = @(
         Source = "${env:PROGRAMFILES}\Typora\resources\style\themes\github-dark-high-contrast.css"
         Destination = "$CurrentPath\ProgramFiles\Typora\resources\style\themes\github-dark-high-contrast.css"
         Description = "Typora Theme (github-dark-high-contrast)"
+    }
+)
+
+# Define wildcard file backups
+$wildcardFiles = @(
+    @{
+        SourcePattern = "$env:APPDATA\FileZilla\*.xml"
+        DestinationFolder = "$CurrentPath\AppData\FileZilla"
+        Description = "FileZilla (XML Configuration Files)"
     }
 )
 
@@ -169,7 +187,7 @@ Write-Host "──────────────────────�
 Write-Host ""
 
 $successCount = 0
-$totalCount = $backupPaths.Count + $specificFiles.Count
+$totalCount = $backupPaths.Count + $specificFiles.Count + $wildcardFiles.Count
 
 # Backup folders
 foreach ($path in $backupPaths) {
@@ -231,6 +249,44 @@ foreach ($file in $specificFiles) {
     }
     else {
         Write-Host "[!] Warning: Source file not found - $($file.Source)" -ForegroundColor Yellow
+    }
+    Write-Host ""
+}
+
+# Backup wildcard files
+foreach ($wildcard in $wildcardFiles) {
+    Write-Host "[→] Backing up: $($wildcard.Description)" -ForegroundColor Cyan
+    
+    $matchedFiles = Get-ChildItem -Path $wildcard.SourcePattern -ErrorAction SilentlyContinue
+    
+    if ($matchedFiles) {
+        try {
+            # Ensure destination directory exists
+            if (-not (Test-Path -Path $wildcard.DestinationFolder)) {
+                New-Item -Path $wildcard.DestinationFolder -ItemType Directory -Force | Out-Null
+            }
+            
+            # Remove existing backups in destination folder
+            if (Test-Path -Path $wildcard.DestinationFolder) {
+                Get-ChildItem -Path $wildcard.DestinationFolder -Filter "*.xml" | Remove-Item -Force -ErrorAction SilentlyContinue
+            }
+            
+            # Copy all matched files
+            $fileCount = 0
+            foreach ($matchedFile in $matchedFiles) {
+                Copy-Item -Path $matchedFile.FullName -Destination $wildcard.DestinationFolder -Force -ErrorAction Stop
+                $fileCount++
+            }
+            
+            Write-Host "[✓] Success: $fileCount file(s) backed up to $($wildcard.DestinationFolder)" -ForegroundColor Green
+            $successCount++
+        }
+        catch {
+            Write-Host "[✗] Error: Failed to backup files - $($_.Exception.Message)" -ForegroundColor Red
+        }
+    }
+    else {
+        Write-Host "[!] Warning: No files found matching pattern - $($wildcard.SourcePattern)" -ForegroundColor Yellow
     }
     Write-Host ""
 }

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<lister_layout flags="1">
+	<lister virtual_desktop="{F17C2267-D860-4BC7-9BB9-E0493AD888FB}">
+		<wp rc="470,196,1921,975,100" showcmd="1" />
+		<layout flags="0x103000003" tree_size="358,0" tree_size_dpi="100" view_mode="details,details" well_width="128,0" well_width_dpi="100" />
+		<filedisplay>
+			<left buf_flags="0xc0420000" flags="0" name="">
+				<pathstring>C:\#PL-DEV\1_DEV</pathstring>
+				<format autosize="yes" getsizes="default" noremember="no" numericname="yes" sort="dirsfirst" sortnewfiles="default" threshhold="25" type="0x8000000" v="4" view_mode="details">
+					<field id="name" size="354" size_dpi="100" sort="1" />
+					<field id="sizeauto" size="59" size_dpi="100" />
+					<field id="type" size="134" size_dpi="100" />
+					<field id="modified" size="133" size_dpi="100" />
+					<field id="attr" size="54" size_dpi="100" />
+				</format>
+				<curdir>
+					<3>
+						<pathstring>C:\#PL-DEV\1_DEV</pathstring>
+					</3>
+				</curdir>
+				<vars />
+			</left>
+		</filedisplay>
+		<tree_expand>
+			<tree1>
+				<item id="{20D04FE0-3AEA-1069-A2D8-08002B30309D}" />
+				<item id="{B52C30E0-7FF9-47CC-B112-A3D9374CD79E}" />
+			</tree1>
+		</tree_expand>
+	</lister>
+</lister_layout>
