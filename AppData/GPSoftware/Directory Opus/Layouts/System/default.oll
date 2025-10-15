@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <lister_layout flags="1">
-	<lister virtual_desktop="{F17C2267-D860-4BC7-9BB9-E0493AD888FB}">
-		<wp rc="470,196,1921,975,100" showcmd="1" />
+	<lister virtual_desktop="{7F1D85E3-CE87-4ABA-B3D8-F9DBCC9E9D7B}">
+		<wp ptmin="-32000,-32000,100" rc="470,196,1921,975,100" showcmd="1" />
 		<layout flags="0x103000003" tree_size="358,0" tree_size_dpi="100" view_mode="details,details" well_width="128,0" well_width_dpi="100" />
 		<filedisplay>
-			<left buf_flags="0xc0420000" flags="0" name="">
-				<pathstring>C:\#PL-DEV\1_DEV</pathstring>
+			<left buf_flags="0xc0020000" flags="0" name="">
+				<pathstring>C:\#PL-DEV\2_ADV</pathstring>
 				<format autosize="yes" getsizes="default" noremember="no" numericname="yes" sort="dirsfirst" sortnewfiles="default" threshhold="25" type="0x8000000" v="4" view_mode="details">
-					<field id="name" size="354" size_dpi="100" sort="1" />
-					<field id="sizeauto" size="59" size_dpi="100" />
-					<field id="type" size="134" size_dpi="100" />
+					<field id="name" size="220" size_dpi="100" sort="1" />
+					<field id="sizeauto" size="36" size_dpi="100" />
+					<field id="type" size="70" size_dpi="100" />
 					<field id="modified" size="133" size_dpi="100" />
-					<field id="attr" size="54" size_dpi="100" />
+					<field id="attr" size="51" size_dpi="100" />
 				</format>
 				<curdir>
 					<3>
-						<pathstring>C:\#PL-DEV\1_DEV</pathstring>
+						<pathstring>C:\#PL-DEV\2_ADV</pathstring>
 					</3>
 				</curdir>
 				<vars />

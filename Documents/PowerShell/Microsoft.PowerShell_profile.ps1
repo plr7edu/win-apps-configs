@@ -207,11 +207,20 @@ function doc {
     $target = Join-Path $HOME 'Documents\1-GIT'
     if (Test-Path $target) { Set-Location -Path $target } else { Write-Warning "Folder not found: $target" }
   }
+function fonts {
+    $target = Join-Path $HOME 'Documents\1-GIT\win-fonts'
+    if (Test-Path $target) { Set-Location -Path $target } else { Write-Warning "Folder not found: $target" }
+  }  
 function desk { Set-Location -Path ([Environment]::GetFolderPath("Desktop")) }
 function down { Join-Path ([Environment]::GetFolderPath('UserProfile')) 'Downloads'}
 function dev { Set-Location -Path 'C:\#PL-DEV' }
 function gr {
     $target = Join-Path $HOME 'Documents\1-GIT'
+    if (Test-Path $target) { Set-Location -Path $target } else { Write-Warning "Folder not found: $target" }
+}
+
+function wac {
+    $target = Join-Path $HOME '.\Documents\1-GIT\win-apps-configs'
     if (Test-Path $target) { Set-Location -Path $target } else { Write-Warning "Folder not found: $target" }
 }
 
@@ -224,6 +233,7 @@ function ll { Get-ChildItem -Force | Format-Table -AutoSize }
 
 # Git shortcuts
 function gs { git status }
+function st { git status }
 function ga { git add . }
 function gc { param($m) git commit -m "$m" }
 function gpush { git push }
@@ -232,6 +242,7 @@ function g { __zoxide_z github }
 function gcl { git clone "$args" }
 function gcom { git add .; git commit -m "$args" }
 function lazyg { git add .; git commit -m "$args"; git push }
+function gitp { git add .; git commit -m "$args"; git push }
 
 # System information
 function sysinfo { Get-ComputerInfo }
